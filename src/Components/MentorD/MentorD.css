@@ -1,0 +1,65 @@
+.mentord{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    gap: 1rem;
+    width: 100%;
+    /* overflow-x: hidden */
+}
+.mentord .md-head{
+        padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 18rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(90deg, #153E7C 0.26%, #147FA0 100%);
+    /* max-width: var(--container-width-lg);
+    width: 100%; */
+}
+.mentord .md-head h1{
+    max-width: var(--container-width-lg);
+    width: 100%;
+    text-align: left;
+    font-size: var(--heading);
+    letter-spacing: 1.5px;
+    color:#fff;
+    padding:  0 1rem;
+    /* margin: 0 auto; */
+}
+.mentord .md-info{
+    max-width: var(--container-width-lg);
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.mentord .md-info .md-left{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.mentord .md-info .md-left .md-fo{
+    width: 100%;
+}
+.mentord .md-info .md-left .md-fo h1{
+    font-size: var(--medium);
+    padding: 0 1rem;
+}
+.mentord .md-info .md-left .md-fo p{
+    font-size: var(--para);
+    padding: 0 1rem;
+}
+.mentord .md-info .md-left .md-fo ul{
+    margin:0 0 4rem 0;
+}
+.mentord .md-info .md-right{
+    width: 0%;
+}

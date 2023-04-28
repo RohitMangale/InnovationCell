@@ -1,0 +1,39 @@
+.t-maindic{
+    max-width: 1280px;
+    width: 100%;
+    margin: 5rem auto;
+}
+
+.t-insidediv{
+    width: 60%;
+    border: 1px solid var(--bg-grey);
+    border-radius: 10px;
+    padding: 0 3rem 1rem 3rem;
+}
+
+.t-insidediv h2{
+    font-size: var(--para);
+    margin: 1.2rem 0;
+}
+
+.t-insidediv p{
+    font-size: var(--small);
+}
+
+.t-profile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    gap: 1.2rem;
+}
+
+.t-profile img{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+
+.t-profile h3{
+    font-size: var(--para);
+}

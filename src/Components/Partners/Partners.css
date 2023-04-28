@@ -1,0 +1,104 @@
+
+.Partners{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin:0 auto;
+    height: 100vh;
+    background-color: #fff;
+
+}
+
+.Partners .p-sponsers {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 5rem 0rem;
+    justify-content: center;    
+    flex-direction: column;
+    gap: 3rem;
+
+}
+.Partners .p-sponsers  h1{
+    font-size: 48px;  
+    color: var(--black);
+    font-weight: 600;
+
+}
+.Partners .p-sponsers  h1 span{
+    font-weight: 400;
+    color: #444444;
+}
+
+.p-sp1 {
+    background-color: #f3f3f3;
+}
+
+.p-sp2 {
+    background-color: #ffffff;
+}
+
+.Partners .p-sponsers .p-row{
+    width: 1280px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;    
+
+    /* gap: 2rem; */
+}
+ .p-row a{
+    width: 180px;
+    height:100px;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 15px rgba(87, 87, 87, 0.384) ;
+    /* background-position: center;
+    background: url(../../assets/Logos/logo10.png);
+    background-size: contain;
+    background-repeat: no-repeat; */
+    cursor: pointer;
+}
+ .p-row a img{
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
+}
+/* 
+.Partners .p-row .log1{
+    background: url(../../assets/Logos/logo10.png);
+    
+}
+.Partners .p-row .log2{
+    background: url(../../assets/Logos/logo11.png);
+    
+}
+.Partners .p-row .log3{
+    background: url(../../assets/Logos/logo15.png);
+    
+}
+.Partners .p-row .log4{
+    background: url(../../assets/Logos/logo16.png);
+    
+}
+.Partners .p-row .log5{
+    background: url(../../assets/Logos/logo2.png);
+    
+}
+.Partners .p-row .log6{
+    background: url(../../assets/Logos/logo3.png);
+    
+} */
+
+
+
+
+
+
+
+
+
+
+

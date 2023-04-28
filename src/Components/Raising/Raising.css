@@ -1,0 +1,164 @@
+
+.raising{
+    max-width: 1360px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 10rem auto;
+}
+
+.raising .ra-heading{
+    font-size: 48px;
+    width: 100%;
+    /* padding: 0 0 0 2.5rem; */
+    text-align: left;
+    color: #1a1a1a;
+    font-weight: 700;
+    line-height: 1.1;
+    margin: 10px 0;
+
+}
+
+.raising .ra-p{
+    font-size: 20px;
+    width: 100%;
+    /* padding: 0 0 0 2.5rem; */
+    text-align: left;
+    color: #383838;
+    font-weight: 400;
+    line-height: 1.1;
+    margin: 0 0 30px 0;
+}
+
+.raising .ra-row{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0;
+}
+.raising .ra-row .ra-box{
+    width: 320px;
+    position: relative;
+    height: 100%;
+    border: 0 solid #eff2f7;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+    flex-direction: column;
+    cursor: pointer;
+    justify-content: center;    
+}
+.raising .ra-row .ra-box:hover> .ra-text{
+    margin-top: -100px;
+
+  height: 350px;
+
+
+  /* overflow-y: visible; */
+}
+
+
+.raising .ra-row .ra-box .ra-img{
+    width: 100%;
+    height: 250px;
+    background-image: url("https://dfon51l7zffjj.cloudfront.net/uploads/company/custom_card_photo/125568/company_card_Ranch_Rider_Spirits_Co._explore_card_photo_1674245122500.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+.raising .ra-row .ra-box .ra-img:nth-of-type(2){
+    width: 100%;
+    height: 250px;
+    background-image: url("https://d2qbf73089ujv4.cloudfront.net/uploads/company/custom_card_photo/24996/company_card_cropped_Untitled_design__2_.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+
+.raising .ra-row .ra-box .ra-text{
+    width: 100%;
+
+    padding: 1rem;
+    transition: 0.4s ease-in;
+    height: 260px;
+    z-index: 10;
+    overflow-y: hidden;
+    background-color: #ffffff;
+    }
+.raising .ra-row .ra-box .ra-text .ra-name{
+
+    width: 100%;
+    font-size: 20px;
+    font-weight: 500;
+    color: #616161;
+    }
+.raising .ra-row .ra-box .ra-text .ra-h2{
+    width: 100%;
+    font-size: 24px;
+    font-weight: 600;
+    color: #202020;
+    }
+.raising .ra-row .ra-box .ra-text .ra-tag{
+    width: 100%;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    color: #818181;
+    }
+
+   .ra-speciality{
+        width: 100%;
+        margin: 10px 0 15px 0;
+        border-bottom: 1px solid #cecece81;
+        padding: 10px 0 20px 0;
+        text-align: left;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        display: flex;
+        align-items: center;
+    }
+ .ra-speciality .ra-spec{
+        font-size: 12px;
+        font-weight: 400;
+        /* margin-bottom: 15px;  */
+        background-color: #e2fdca;
+        border-radius: 8px;
+        text-transform: uppercase;
+        color: #242424;
+        padding: 2px 15px;
+        font-weight: 600;
+        letter-spacing: 1px;
+    }
+ .ra-speciality .ra-spec:nth-of-type(2){
+        background-color: #f0eab7;
+    }
+.ra-speciality .ra-spec:nth-of-type(3){
+        background-color: #bbf1f1;
+    }
+.ra-speciality .ra-spec:nth-of-type(4){
+        background-color: #dccef7;
+    }
+
+
+.ra-info{
+    width: 100%;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 5px 0;
+    letter-spacing: 1px;
+    color: #2e2e2e;
+}
+
+.ra-info .ra-fees{
+    width: 100%;
+    font-size: 18px;
+    font-weight: 800;
+    color: #020202;
+    margin: 5px 0;
+
+}
+

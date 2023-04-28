@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+:root{
+  --text-grey:rgba(77, 77, 77, 0.938);;
+  --bg-grey:#e6e6e6;
+  --bg-black:#151515;
+  --black:#000;
+  --white:#fff;
+
+  --red:#d00023;
+  --big-font:clamp();
+  --para:20px;
+  --alternate:#45b19d;
+  --heading:56px;
+  --medium:28px;
+  --small:clamp(0.8rem,1.35vw,1.1rem);
+  /* --small:18px; */
+  --container-width-lg:1280px;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Rajdhani', sans-serif;
+}
+body{
+    background-color: #ffffff;
+    height: 100%;
+    padding: 0;
+    overflow-x: hidden;
+    margin: 0;
+}
+
+.container{
+  width: var(--container-width-lg);
+  margin: 0 auto;
+}
+
+
+
+.go-top-btn:hover {
+  background-color: #26ce8f;
+  color: #183052;
+  /* Add a dark-grey background on hover */
+  /* /box-shadow: 10px 10px 40px 10px var(--button), -10px -10px 40px 10px var(--button);/ */
+}
+.go-top-btn:hover a{
+
+  color: #183052;
+  /* Add a dark-grey background on hover */
+  /* /box-shadow: 10px 10px 40px 10px var(--button), -10px -10px 40px 10px var(--button);/ */
+}
+
+.go-top-btn {
+  position: fixed;
+  bottom: 75px;
+  right: 35px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  height: 80px;
+  width: 80px;
+  background: #183052;
+  color: #26ce8f;
+  /* /display: none;/ */
+  justify-content: center;
+  align-items: center;
+  transition: 0s;
+  z-index: 20;
+  font-size: 2rem;
+}
+
+.go-top-btn a{
+  text-decoration:none;
+
+}
+
+
+.btn {
+  font: inherit;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+  border-radius: 25px;
+  background-color: #800040;
+  color: white;
+  border: 1px solid #800040;
+  margin: 0 1rem;
+  font-size: 1.3rem;
+}
+
+.btn:hover {
+  background-color: #9c1458;
+  border-color: #9c1458;
+}
+
+.btn--alt {
+  background-color: transparent;
+  color: #800040;
+}
+
+.btn--alt:hover {
+  background-color: #f8dae9;
+}
+
+.card {
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  width: 20rem;
+}
+
+.actions {
+  text-align: right;
+}
+
+.modal {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  background-color: white;
+  padding: 1rem;
+  text-align: center;
+  width: 30rem;
+  z-index: 10;
+  position: fixed;
+  top: 60vh;
+  left: calc(75% - 15rem);
+}
+
+.backdrop {
+  position: fixed;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.75);
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
+
+
+
