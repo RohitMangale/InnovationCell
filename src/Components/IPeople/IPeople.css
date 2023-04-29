@@ -16,22 +16,32 @@
     max-width: 1360px;
     width: 100%;
     font-size: 48px;
-    /* padding: 0  0 0 2.5rem; */
+    padding: 0 1rem;
     color: #ffffff;
     font-weight: 700;
     line-height: 1.1;
     margin: 0 auto 10px auto;
     text-align: left;  
 }
+@media (max-width:800px) {
+    .ipeople .ip-heading{   
+        text-align: center;
+        padding: 0 1rem;
 
+    }
+}
 .ipeople .ip-row{
     max-width: 1360px;
     width: 100%;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1.2rem;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
+
+
 
 .ipeople .ip-row .ip-bow{
     width: 320px;

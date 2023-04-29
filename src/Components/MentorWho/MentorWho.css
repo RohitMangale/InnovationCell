@@ -17,6 +17,12 @@
     gap: 0.5rem;
 }
 
+@media (max-width:960px) {
+    .mentorwho .mw-left{
+    width: 60%;
+}
+}
+
 .mentorwho .mw-left .mw-heading{
     font-size: 48px;
     width: 100%;
@@ -87,7 +93,14 @@
     height: 100%;
 }
 
-
+@media (max-width:960px) {
+    
+.mentorwho .mw-right,
+.mentorwho .mw-right img{
+    display: none;
+    
+}
+}
 
 
 

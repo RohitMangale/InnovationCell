@@ -45,6 +45,10 @@ const Footer = () => {
             {/* </div> */}
             <div className="con ">
                 <h1>Subscribe</h1>
+                <p><a className='link' ><Link to='/incubationPage'>Incubation</Link></a></p>
+                <p><a className='link' ><Link to='/researchDev'>R&D</Link></a></p>
+                <p><a className='link' ><Link to='/insurancePage'>Insuarance</Link></a></p>
+                <p><a className='link' ><Link to='/mentors'>Mentor</Link></a></p>
             </div>
         </div>
         

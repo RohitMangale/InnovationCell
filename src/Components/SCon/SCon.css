@@ -7,7 +7,8 @@
     position: relative;
     gap: 1rem;
     margin: 0 auto;
-    padding: 0;
+    padding: 0;     
+    flex-wrap: wrap;
     height: 70vh;
     flex-direction: column;
     /* background-image: radial-gradient(circle,#162a36 0,#000 100%)!important;
@@ -95,3 +96,32 @@
 
 
 
+@media (max-width:800px) {
+
+    
+.scon{
+    height: 90vh;
+    gap: 3rem;
+
+    
+}
+
+
+    .scon .sc-row{
+        flex-direction: column;
+
+    }
+    .scon .sc-row .sc-tab{
+        width: 300px;
+
+    }
+    .scon .sc-row .sc-tab:nth-of-type(2){
+        border: none;
+        border-top: 1px solid #cacaca;
+
+    }
+    
+.scon{
+    height: 90vh;    
+}
+}

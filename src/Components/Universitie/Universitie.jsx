@@ -5,6 +5,8 @@ const Universitie = () => {
   return (
     <div id="universitie">
       <div className="block">
+            <div className="uni_landing_bg">
+
             
             <div className="uni_landing">
                 <div className="uni_land_left">
@@ -22,6 +24,7 @@ const Universitie = () => {
                 <div className="uni_land_right">
                     <img src="https://images.ctfassets.net/2pudprfttvy6/4Flr3pfiVTFES3TdTJrZiZ/f3985ddcfd98b7d0acd0760243cb4875/c4c-homepage-hero.jpg" alt="" />
                 </div>
+            </div>
             </div>
 
             <div className="uni_highlight_info">
@@ -43,7 +46,7 @@ const Universitie = () => {
                                 of employers believe that Professional Certificates strengthen a candidate’s job application
                             </div>
                         </div>
-                        <div className="uni_info border">
+                        <div className="uni_info border none">
                             <div className="uni_persentage">
                                 90%
                             </div>
@@ -57,7 +60,7 @@ const Universitie = () => {
         </div>
 
        
-
+        <div className="uni_partner_bg">
         <div className="uni_partners">
             <div className="partners_info">
                 <h1>Offer students 5,400 courses from 275+ leading universities and industry partners</h1>
@@ -65,7 +68,9 @@ const Universitie = () => {
             </div>
             <img className='partners_img' src="https://www.edx.org/contentful/ii9ehdcj88bc/1DPU1t569diy1GREgbCjsP/a0985b7471635903cb410f36fac6756d/MicroBootcamps.png?w=580&fm=webp" alt="" />
         </div>
+        </div>
 
+        <div className="uni_imp_bg">
         <div className="uni_imp">
             <div className="uni_imp_left">
                 <img src="https://images.ctfassets.net/2pudprfttvy6/22Idxx2D2dyALpIoJznkQD/fba6cc9a2cce8aa1832a5af642af6dfb/c4c-image-home-career-academy.jpg" alt="" />
@@ -107,7 +112,9 @@ const Universitie = () => {
                 </p>
             </div>
         </div>
+        </div>
 
+        <div className="uni_curriculum_bg">
         <div className="uni_curriculum">
             <div className="curri_heading">
                 <h1>Expand your curriculum and empower your faculty</h1>
@@ -152,8 +159,9 @@ const Universitie = () => {
                 </div>
             </div>
         </div>
+        </div>
 
-
+        <div className="uni_partner_bg">
         <div className="our_uni_partner">
             <div className="uni_partner_right">
                 <h1>
@@ -183,6 +191,7 @@ const Universitie = () => {
                 </ul>
             </div>
             
+        </div>
         </div>
     </div>
   )

@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
 :root{
   --text-grey:rgba(77, 77, 77, 0.938);;
   --bg-grey:#e6e6e6;
@@ -8,13 +9,11 @@
   --white:#fff;
 
   --red:#d00023;
-  --big-font:clamp();
-  --para:20px;
   --alternate:#45b19d;
-  --heading:56px;
-  --medium:28px;
-  --small:clamp(0.8rem,1.35vw,1.1rem);
-  /* --small:18px; */
+  --heading:clamp(2.5rem,4vw,3.5rem);
+  --medium:clamp(1.5rem,1.8vw,2.2rem);
+  --para:clamp(1rem,1.2vw,1.3rem);
+  --small:clamp(0.8rem,0.8vw,1rem);
   --container-width-lg:1280px;
 
   font-synthesis: none;
@@ -30,7 +29,8 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
-  font-family: 'Rajdhani', sans-serif;
+  font-family: 'Poppins', sans-serif;
+
 }
 body{
     background-color: #ffffff;

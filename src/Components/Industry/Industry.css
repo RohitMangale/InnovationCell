@@ -5,7 +5,7 @@
 }
 #industry .industry_landing
 {
-    height: 80vh;
+    height: 100vh;
     background: url('../../assets/industry_land_converted_jpg.jpg');
     background-position: center;
     background-size: cover;
@@ -13,12 +13,13 @@
     margin: 0;
 }
 #industry .industry_landing .landing_text_area{
-    width: 40%;
-    padding: 5rem;
+    width: 50%;
+    padding: 1rem;
+    max-width: 1360px;
 }
 #industry .industry_landing .landing_text_area h1{
-    font-size: 52px;
-    font-weight: 900;
+    font-size: var(--heading);
+    font-weight: 700;
     line-height: 60px;
     margin-top: 32px;
     margin-bottom: 16px;
@@ -28,7 +29,7 @@
    
 }
 #industry .industry_landing .landing_text_area p{
-    font-size: 18px;
+    font-size: var(--para);
     line-height: 28px;
     margin-bottom: 32px;
 }
@@ -191,6 +192,8 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
     gap: 8rem;
 }
 #industry .ind_emp_branding .branding_heading{
@@ -225,7 +228,15 @@
     margin-bottom: 16px;
     color: #333;
 }
-
+#industry .ind_emp_branding .branding_img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45%;
+}
+#industry .ind_emp_branding .branding_img img{
+    width: 80%;
+}
 #industry .ind_process_com{
     padding: 5rem 8rem;
     display: flex;
@@ -297,8 +308,8 @@
     margin-bottom: 1rem;
 }
 #industry .ind_banner .info{
-    font-weight: 900;
-    font-size: 36px;
+    font-weight: 400;
+    font-size: var(--para);
     line-height: 48px;
     margin-bottom: 2rem;
     color: #fff;
@@ -309,4 +320,48 @@
     line-height: 28px;
     color: #fff;
     margin-bottom: 3rem;
+}
+
+
+
+
+@media (max-width:1000px){
+    #industry .industry_landing{
+        background-position: right;
+    }
+    #industry .industry_landing .landing_text_area{
+        width: 100%;
+    }
+
+    #industry .ind_why_us{
+        padding: 3rem;
+    }
+    #industry .ind_why_us .why_us_heading{
+        padding: 1rem 0rem;
+    }
+    #industry .ind_why_us .why_us_trade{
+        margin: 1rem 0;
+    }
+    #industry .ind_why_us .why_us_trade .trade .why_us_content{
+        border: 0;
+    }
+    #industry .ind_adv{
+        padding: 5rem 1rem;
+    }
+    #industry .ind_emp_branding{
+        padding: 5rem 1rem;
+        
+    }
+    #industry .ind_emp_branding .branding_heading{
+        width: 100%;
+    }
+    #industry .ind_emp_branding .branding_img{
+        width: 100%;
+    }
+    #industry .ind_process_com{
+        padding: 5rem 1rem;
+    }
+    #industry .ind_banner{
+        padding: 5rem 1rem;
+    }
 }

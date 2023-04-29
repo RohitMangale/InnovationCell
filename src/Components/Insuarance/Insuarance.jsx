@@ -30,9 +30,8 @@ const Insuarance = () => {
                     <h3>BVLOS coverage</h3>
                     <p>Get this add-on if you are conducting flights Beyond Visual Line of Sight</p>
                 </div>
-            </div>
 
-            <div className="di-coveredin">
+
                 <div className="di-partone">
                     <img src="https://tropogo.com/insurance/assets/images/advisor/ic_training.png" alt="" />
                     <h3>RPTO / Training Cover (Add-on)</h3>
@@ -93,21 +92,22 @@ const Insuarance = () => {
                     <h3>Drone Serial Number</h3>
                     <p>Unique Serial number marked on your drone</p>
                 </div>
-            </div>
-
-            <div className="di-coveredin1">
                 <div className="di-partone">
                     <img src="https://tropogo.com/insurance/assets/images/home/ic_drone_images.svg" alt="" />
                     <h3>Drone Images</h3>
                     <p>Latest Images of your drone</p>
                 </div>
             </div>
+
+
         </div>
 
 
 
 
         <h1 className='h1h1'>Why get your Drone Cover from US?</h1>
+
+        
         <div className="di-whyus">
             <div className="di-boxone">
                 <img src="https://tropogo.com/insurance/assets/images/home/ic_drone_insurance.svg" alt="" />

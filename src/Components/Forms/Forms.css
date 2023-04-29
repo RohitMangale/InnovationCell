@@ -43,6 +43,7 @@ input::-webkit-outer-spin-button,
 
 .f-radio{
     display: flex;
+    flex-wrap: wrap;
     gap: 4rem;
     margin-bottom: 1.5rem;
     margin-top: 1rem;
@@ -157,4 +158,23 @@ input[type=file]::file-selector-button {
   
   input[type=file]::file-selector-button:hover {
     background: var(--text-grey);
+  }
+
+  @media(max-width:800px){
+    .f-onerow{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .f-onerow input{
+        width: 100%;
+    }
+  }
+
+  @media(max-width:500px){
+    .f-radio{
+        justify-content: center;
+    align-items: center;
+    }
   }

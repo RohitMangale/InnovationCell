@@ -177,7 +177,7 @@ nav .content .links{
   top: 0;
 }
 /* Responsive code start */
-@media screen and (max-width: 1250px){
+@media screen and (max-width: 1320px){
   .wrapper nav{
     max-width: 100%;
     padding: 0 20px;
@@ -196,7 +196,7 @@ nav .content .links{
     
   }
 }
-@media screen and (max-width: 900px){
+@media screen and (max-width: 1180px){
   .wrapper .menu-icon{
     display: block;
   }
@@ -219,6 +219,7 @@ nav .content .links{
   }
   nav #show-menu:checked ~ .content .links{
     left: 0%;
+    /* top: 0%; */
   }
   .content .links li{
     margin: 15px 20px;

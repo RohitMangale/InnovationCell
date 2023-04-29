@@ -96,7 +96,6 @@
 .ib-logodiv h3{
     font-size: 1.4rem;
     color: #1a91eb;
-    font-family: 'Helvetica',sans-serif;
 }
 
 .ib-fourbox{
@@ -117,7 +116,8 @@
     display: flex;
     flex-direction: row;
     /* margin-top: 4rem; */
-    width: 1000px;
+    flex-wrap: wrap;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 20px 4rem;
     flex-wrap: wrap;
@@ -149,9 +149,7 @@
     color: var(--text-grey);
 }
 
-.ib-boxbox img{
-    margin: 2rem 0;
-}
+
 
 .ib-boxbox p{
     margin-top: 1.2rem;
@@ -169,4 +167,39 @@
     margin-top: 6rem;
     z-index: -10;
     position: relative;
+}
+
+@media(max-width:1360px){
+    .ib-imgdiv{
+        display: none;
+    }
+
+    .ib-textdiv{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 4rem;
+    }
+
+    .ib-textdiv h4,
+    .ib-textdiv h1,
+    .ib-textdiv p{
+        text-align: center;
+    }
+
+}
+
+@media(max-width:400px){
+    .ib-boxbox{
+        width: 100%;
+    }
+
+    .ib-boxbox img{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
 }

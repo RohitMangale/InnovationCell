@@ -6,7 +6,7 @@ import CountUp from 'react-countup';
 const SCon = () => {
   return (
     <div className='scon'>
-
+        
         <video className="sc-video" src={Viv} autoplay />
         <div className="bg-back"/>
 

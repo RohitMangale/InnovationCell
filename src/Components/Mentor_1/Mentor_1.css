@@ -29,12 +29,15 @@
 
 
 .mentor .men-row{
-    width: 1280px;
+    max-width: 1280px;
+    width: 100%;
     display: flex;
     flex-direction: row;
     margin: 1.5rem auto;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 2rem;
     /* gap: 2rem; */
 }
 
@@ -43,8 +46,8 @@
 
 
 .mentor .men-row .men-box{
-    width: 22%;
-    height: 330px;
+    width: 360px;
+    height: 360px;
     display: flex;
     flex-direction:column;
     /* border-bottom: 4px solid #d72323; 

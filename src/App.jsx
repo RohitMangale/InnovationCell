@@ -40,7 +40,7 @@ function App() {
     <Universitie/>
         <Why /> 
       <Learning />*/}
-      <Faqk />
+      {/* <Faqk /> */}
 
         <Testimonials />
         <Blog />

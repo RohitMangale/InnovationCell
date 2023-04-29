@@ -62,6 +62,14 @@
   width: 100%;
 }
 
+@media (max-width:660px) {
+  .slide .content {
+
+    padding: 0 0 0 20px;
+
+  }
+}
+
 .slide .content .sl-text{
   align-self: center;
   padding: 0 15px 0px;

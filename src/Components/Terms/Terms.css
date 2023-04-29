@@ -18,7 +18,7 @@
   }
 
 .tc-maindiv p{
-    font-size: 22px;
+    font-size: var(--para);
     text-align: justify;
     color: var(--text-grey);
     font-weight: 200;
@@ -32,7 +32,7 @@
 }
 
 .tc-insidediv h2{
-    font-size: 40px;
+    font-size: var(--medium);
     margin: 2rem 0 1rem 0;
     font-weight: 400;
 }
@@ -54,4 +54,24 @@
     width: 100%;
     height: 100%;
     object-fit: contain;
+}
+
+@media(max-width:1280px){
+    .tc-flexdiv{
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        justify-self: center;
+        align-items: center;
+    }
+}
+
+@media(max-width:800px){
+    .tc-maindiv{
+        width: 80%;
+    }
+
+    .tc-fixeddiv{
+        width: 80%;
+    }
 }
