@@ -6,17 +6,18 @@ import Startup2 from '../Components/Startup2/Startup2'
 import Startup3 from '../Components/Startup3/Startup3'
 import SCon from '../Components/SCon/SCon'
 import Raising from '../Components/Raising/Raising'
+import ProjectSale from '../Components/ProjectsSale/ProjectSale'
+import VcHeader from '../Components/VcHeader/VcHeader'
+import Blackhole from '../Components/blackhole/blackhole'
 
 const Startup = () => {
   return (
     <div>
-        <Navbar />
-        <Startup2 />
+      <VcHeader />
         <Startup1 />
         <Raising />
-        <SCon />
+        {/* <SCon /> */}
         <Startup3 />
-        <Footer />      
     </div>
   )
 }

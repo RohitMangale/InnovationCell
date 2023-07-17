@@ -55,7 +55,7 @@
     
 }
 .banner1 .b1-con .b1-right .b1-heading span{
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: 800;
     line-height: 5rem;
     
@@ -63,7 +63,7 @@
 }
 .banner1 .b1-con .b1-right ul{
     padding: 0 0 0 3rem;
-    font-size: 1.5rem;
+    font-size: var(--para);
     display: flex;
     flex-direction: column;
     gap: 0.5rem;  
@@ -90,13 +90,18 @@
 }
 .banner1 .b1-con .b1-right{
     width: 100%;
-        padding: 3rem 0 0 0rem;
+        padding: 3rem 0 0 0;
     align-items: center;
+    justify-content: left;
     
 
 }
 
+.banner1 .b1-con .b1-right .b1-heading{
+    padding-left: 20px;
 
+    
+}
 
 
 }

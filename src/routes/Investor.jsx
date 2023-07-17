@@ -5,17 +5,19 @@ import Footer from '../Components/Footer/Footer'
 import IBenefits from '../Components/IBenefits/IBenefits'
 import Ibutton from '../Components/Ibutton/Ibutton'
 import IPeople from '../Components/IPeople/IPeople'
+import Investor_Header from '../Components/Investor_Header/Investor_Header'
+
+
 
 const Investor = () => {
   return (
     <div>
-    <Navbar />
     {/* <Ibutton /> */}
-    <Slider />
-    
+    {/* <Slider /> */}
+    {/* <Ibutton/> */}
+    <Investor_Header/>
     <IBenefits />
     <IPeople />
-    <Footer />
     </div>
   )
 }

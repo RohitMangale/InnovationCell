@@ -6,9 +6,7 @@ import Lecture from '../Components/Lecture/Lecture'
 const Lectures = () => {
   return (
     <div>
-      <Navbar />
       <Lecture />
-      <Footer />
     </div>
   )
 }

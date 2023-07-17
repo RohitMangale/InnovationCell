@@ -93,6 +93,9 @@ const Student = () => {
         <div className="f-onerow">
           <input type="password" placeholder="Enter Password" required />
         </div>
+        <button className="btn">
+          Join Us
+        </button>
       </div>
     </div>
   );

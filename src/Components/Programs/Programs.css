@@ -1,107 +1,11 @@
 
-.programs{
-    max-width: 1200px;
-    width: 100%;
-    margin: 5rem auto;
-    display: flex;
-    flex-direction: column;
-    
-}
-.programs .pr-heading{
-    max-width: 1280px;
-    width: 100%;
-    font-size: 48px;
-    padding: 0  0 0 2.5rem;
-    color: #1a1a1a;
-    font-weight: 700;
-    line-height: 1.1;
-    margin: 0 auto 10px auto;
-    text-align: left;    
-}
-
-.programs p{
-    width: 100%;
-    font-size: var(--small);
-    color: #6c757d;
-    line-height: 1.2;
-    /* text-align: left; */
-    margin-bottom: 0.5rem;
-    padding: 0rem 0 0 2.5rem;
-}
-.programs .pr-line{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 2rem;
-    align-items: center;
-    justify-content: left;
-    padding: 1.5rem 0 0 2.5rem;
-}
-
-.programs  .pr-line span{
-    display: flex;
-    flex-direction: row;
-    gap: 0.5rem;
-    font-size: var(--small);
-    color: #6c757d;
-    line-height: 1.2;
-    /* text-align: left; */
-    margin-bottom: 0.5rem;
-}
-
-.programs  .pr-line span img{
-    width: 20px;
-    height: 20px;
-}
-
-
-
-.programs .pr-row{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    row-gap:2rem;
-    margin: 2rem 0;
-    padding: 0 0 0 2.5rem;
-}
-
-@media (max-width:1080px) {
-    .programs .pr-row{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    row-gap:2rem;
-    column-gap: 2rem;
-    /* margin: 2rem 0; */
-    padding: auto;
-}
-.programs .pr-line{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    gap: 2rem;
-    align-items: center;
-    justify-content: left;
-    padding: 1.5rem auto 0;
-}
-
-
-}
 
 
 
 
-
-.programs .pr-row .pr-box {
+ .pr-box {
     max-width: 350px;
-    width: 90%;
+    width: 330px;
     border-radius: 8px;
     box-shadow: 0 2px 5px 0 rgba(17,121,239,.15);
     border: 1px solid #e6ecef;
@@ -110,27 +14,35 @@
     align-items: center;
     cursor: pointer;
     justify-content: center;
+    margin: 5px;
 }
-.programs .pr-row .pr-box .pr-top{
+ .pr-box .pr-top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
-    height: 100px;
+    height: 180px;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
-    background-image: url(https://media.istockphoto.com/id/492683865/photo/drone-white-cloudy-dusk-sky.jpg?s=612x612&w=0&k=20&c=kzzV_fu9onBArhMKbE4sxRe4K22fpWK-bd1-PMiJ608=) ;
-    background-position:center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    
     
 
 }
-.programs .pr-row .pr-box .pr-text{
+.pr-box .pr-top img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    padding: 0;
+
+}
+ .pr-box .pr-text{
     width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
     padding: 2rem 1rem;
 }
-.programs .pr-row .pr-box .pr-text h4{
+.pr-box .pr-text h4{
     font-size: var(--para);
     height: 40px;
     color: #2e2e2e;
@@ -139,7 +51,7 @@
     font-weight: 600;
     margin-bottom: 15px;
 }
-.programs .pr-row .pr-box .pr-text .pr-two{
+ .pr-box .pr-text .pr-two{
     width: 100%;
     display: flex;
     padding: 0 0 0  0.3rem;
@@ -149,7 +61,7 @@
     justify-content: left;
     gap: 2rem;
 }
-.programs .pr-row .pr-box .pr-text .pr-two span{
+.pr-box .pr-text .pr-two span{
     display: flex;
     flex-direction: row;
     gap: 0.5rem;
@@ -160,7 +72,7 @@
     margin-bottom: 0.5rem;
 }
 
-.programs .pr-row .pr-box .pr-text .pr-tick{
+.pr-box .pr-text .pr-tick{
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -168,9 +80,10 @@
     justify-content: left;
     gap: 0.5rem;
 }
-.programs .pr-row .pr-box .pr-text .pr-tick span{
+.pr-text .pr-tick span{
     display: flex;
     flex-direction: row;
+    align-items: center;
     gap: 0.3rem;
     font-size: var(--small);
     color: #6c757d;
@@ -178,13 +91,15 @@
     /* text-align: left; */
 
 }
-.programs .pr-row .pr-box .pr-text .pr-tick img{
-    width: 20px;
-    height: 20px;
+.pr-box .pr-text .pr-tick img{
+    width: 10px;
+    height: 10px;
 }
 
 
 
 
-
+a{
+    text-decoration: none;
+}
 

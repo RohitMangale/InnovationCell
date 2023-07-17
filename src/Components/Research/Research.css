@@ -1,7 +1,7 @@
 .r-onediv{
     width: 100%;
     height: 90vh;
-    background-image: url("https://deltic.netlify.app/img/bg-img/ai2.png");
+    background-image: url("./rnd.png");
     background-repeat: no-repeat;
     background-position: right;
 }
@@ -28,17 +28,17 @@
 
 .r-testlab{
     font-weight: 700;
-    color: #044afa ;
+    color: #f95320 ;
 }
 
 .r-features{
     width: 100%;
-    background:#0067da;
+    background:#191919;
     display: flex;
     flex-direction: row;
     padding: 2rem 7rem;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     flex-wrap: wrap;
 }
 
@@ -58,12 +58,12 @@
 }
 
 .r-insideidv h2{
-    font-size: 22px;
+    font-size:var(--para);
     margin-bottom: 1rem;
 }
 
 .r-insideidv p{
-    font-size: 20px;
+    font-size: var(--para);
     text-align: center;
 }
 

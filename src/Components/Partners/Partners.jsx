@@ -1,82 +1,79 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Partners.css";
-import logo2 from '../../assets/Logos/logo2.png'
-import logo3 from '../../assets/Logos/logo3.png'
-import logo4 from '../../assets/Logos/logo4.jpg'
-import logo5 from '../../assets/Logos/logo5.png'
-import logo7 from '../../assets/Logos/logo7.png'
-import logo8 from '../../assets/Logos/logo8.png'
-import logo9 from '../../assets/Logos/logo9.png'
-import logo10 from '../../assets/Logos/logo10.png'
-import logo11 from '../../assets/Logos/logo11.png'
-import logo15 from '../../assets/Logos/logo15.png'
-import logo16 from '../../assets/Logos/logo16.png'
+import sponsor1 from "./sponser1.png";
+import sponsor2 from "./sponser2.png";
+import logo1 from "../../assets/ouralliance/1.png";
+import logo2 from "../../assets/ouralliance/2.png";
+import logo3 from "../../assets/ouralliance/3.png";
+import logo4 from "../../assets/ouralliance/4.png";
+import logo5 from "../../assets/ouralliance/5.png";
+import logo6 from "../../assets/ouralliance/6.png";
+import logo7 from "../../assets/ouralliance/7.png";
+
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const Partners = () => {
+  useEffect(() => {
+    Aos.init({
+      duration: 600,
+      easing: "ease",
+      once: true,
+    });
+  });
+
   return (
     <div className="Partners">
-      <div className="p-sponsers p-sp1">
-        <h1><span>Business</span> Partnerships </h1>
+      {/* <div className="p-sponsers p-sp1"  data-aos="fade-right" data-aos-delay="100" >
+        <h1><span>Our</span> Alliance </h1>
 
         <div className="p-row">
-          <a className="p-box log1">
-            <img src={logo2} alt="" />
-          </a>
 
-          <a className="p-box log2">
-          <img src={logo3} alt="" />
-          </a>
-
-          <a className="p-box log3">
+          <a className="p-box log4">
           <img src={logo4} alt="" />
           </a>
 
-          <a className="p-box log4">
+          <a className="p-box log5">
           <img src={logo5} alt="" />
           </a>
 
-          <a className="p-box log5">
+          <a className="p-box log6">
+          <img src={logo6} alt="" />
+          </a>
+
+          <a className="p-box log6">
           <img src={logo7} alt="" />
           </a>
 
-          <a className="p-box log6">
-          <img src={logo8} alt="" />
-          </a>
 
         </div>
-      </div>
 
-      <div className="p-sponsers p-sp2">
-        <h1> <span>Brands</span> we have  Helped</h1>
 
-        <div className="p-row ">
-          <a className="p-box log1">
-            <img src={logo9} alt="" />
+        <div className="p1-row ">
+
+          <a className="p-box1 log1">
+          <img src={logo1} alt="" />
           </a>
 
-          <a className="p-box log2">
-            <img src={logo10} alt="" />          
+          <a className="p-box1 log2">
+          <img src={logo2} alt="" />
           </a>
 
-          <a className="p-box log3">
-            <img src={logo11} alt="" />
-          </a>
-
-          <a className="p-box log4">
-          <img src={logo15} alt="" />
-          </a>
-
-          <a className="p-box log5">
-          <img src={logo16} alt="" />
-          </a>
-
-          <a className="p-box log6">
+          <a className="p-box1 log3">
           <img src={logo3} alt="" />
+
           </a>
-        </div>
+
+
       </div>
+      </div> */}
 
+      <div className="pt-imgs">
 
+        <img src={sponsor1} className="pt-seen" />
+        <img src={sponsor2} className="pt-unseen" />
+
+      </div>
     </div>
   );
 };

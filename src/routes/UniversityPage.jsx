@@ -5,11 +5,8 @@ import Universitie from '../Components/Universitie/Universitie'
 
 const UniversityPage = () => {
   return (
-    <div>
-    <Navbar />
+    <div className='top100'>
     <Universitie />
-    <Footer />
-      
     </div>
   )
 }

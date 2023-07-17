@@ -24,9 +24,7 @@ const Startup1 = () => {
             </div>
 
             <div className="st-text">
-              Mentorship, Advisory, assistance, Resilience and Growth Portal for
-              startups is a one-stop platform to facilitation and guidance
-              across all sectors, functions, stages, and geographies.
+            At [Company Name], we are dedicated to providing startups with the guidance and support they need to excel . 
             </div>
 
             <Link to='/founder' className="st-button">Join <span> to raise funds</span></Link>
@@ -48,9 +46,7 @@ const Startup1 = () => {
             </div>
 
             <div className="st-text">
-              Mentorship, Advisory, assistance, Resilience and Growth Portal for
-              startups is a one-stop platform to facilitation and guidance
-              across all sectors, functions, stages, and geographies.
+            At [Company Name], we are committed to providing investors with exceptional opportunities and a seamless investment experience. 
             </div>
 
             <Link to='/investor' className="st-button">Join <span> to invest</span></Link>

@@ -1,46 +1,39 @@
 import React from 'react'
 import './Blog.css'
+import { Link } from 'react-router-dom'
+import picture1 from './Picture1.jpg'
+import picture2 from '../../assets/MIND.png'
 
 const Blog = () => {
   return (
         <div className=" bp-maindiv">
             <div className="bp-contentdiv">
                 <div className="bp-imgdiv">
-                    <img src="https://www.meetingsnet.com/sites/meetingsnet.com/files/styles/article_featured_standard/public/uploads/2016/12/sky-drone.jpg?itok=4PlJH9d4" alt="" />
+                    <img src={picture1} alt="" />
                 </div>
                 <div className="bp-textdiv">
-                    <small>Marketing</small>
-                    <h3>Lorem ipsum dolor sit amet.</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo cum non quia porro quos voluptatibus.</p>
-                    <button className='bp-btn'>Read Full Article</button>
+                    <div className='small'>Payment</div>
+                    <h3>NFC Payment Gateway</h3>
+                    <p>Near Field Communication (NFC) is a wireless communication technology that enables the exchange of data between two devices within a short range of up to 10 cm
+.</p>
+                    <Link to='/blog' className='bp-btn'>Read Full Article</Link>
                 </div>
             </div>
 
 
             <div className="bp-contentdiv">
                 <div className="bp-imgdiv">
-                    <img src="https://img.rolandberger.com/content_assets/content_images/captions/rb_dig_20_001_03_art_305_uam_passenger_drones_0003_it_image_caption_w1280.jpg" alt="" />
+                    <img src={picture2} alt="" style={{objectPosition:"left"}} />
                 </div>
                 <div className="bp-textdiv">
-                    <small>Marketing</small>
-                    <h3>Lorem ipsum dolor sit amet.</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo cum non quia porro quos voluptatibus.</p>
-                    <button className='bp-btn'>Read Full Article</button>
+                    <div className='small'>Brain</div>
+                    <h3>Mind Controlling Unit </h3>
+                    <p>EEG sensors, also known as EEG electrodes or EEG caps, are devices used to detect and measure the electrical activity of the brain through electroencephalography (EEG). </p>
+                    <Link to='/blog1' className='bp-btn'>Read Full Article</Link>
                 </div>
             </div>
 
 
-            <div className="bp-contentdiv">
-                <div className="bp-imgdiv">
-                    <img src="https://www.ppa.com/assets/images/social/Drone_Article_1200x630.jpg" alt="" />
-                </div>
-                <div className="bp-textdiv">
-                    <small>Marketing</small>
-                    <h3>Lorem ipsum dolor sit amet.</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo cum non quia porro quos voluptatibus.</p>
-                    <button className='bp-btn'>Read Full Article</button>
-                </div>
-            </div>
         </div>
     
   )

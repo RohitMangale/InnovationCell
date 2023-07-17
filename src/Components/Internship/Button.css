@@ -9,3 +9,8 @@
     text-decoration: none;
     color: #fff;
 }
+
+.delete{
+    background-color: #f03d3d;
+    cursor: pointer;
+}

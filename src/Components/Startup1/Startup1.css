@@ -5,7 +5,7 @@
     width: 100%;
     display: flex;
     margin: 10rem auto 5rem auto;
-    padding:0 1rem;
+    padding:0 3rem;
     row-gap:8rem ;
     flex-wrap: wrap;
     align-items: center;
@@ -34,7 +34,7 @@
 
 
 .startup1 .st-boxs .st-bg{
-    background: rgb(216, 82, 23);
+    background: var(--satan);
     box-shadow: rgba(255, 255, 255, 0.44) -7.30709px -8.22047px 12.7874px, rgba(0, 0, 0, 0.07) 8.22047px 7.30709px 28.315px;
     border-radius: 50px 50px 10.0472px 10.0472px;
     height: 100%;
@@ -50,7 +50,7 @@
     background-color: #fff;
 }
 .startup1 .st-boxs .st-bg .st-title .st-titu{
-    background: linear-gradient(111.04deg, rgb(246, 121, 11) -0.63%, rgb(251, 83, 38) 107.47%), rgb(216, 82, 23);
+    background: var(--satan);
     box-shadow: rgba(0, 0, 0, 0.18) 0px 7.30709px 12.7874px;
     border-radius: 11.874px;
     text-decoration: none;
@@ -112,7 +112,7 @@
     width: max-content !important;
     font-size: 12px !important;
     background: rgb(255, 255, 255);
-    border: 0.883005px solid rgb(216, 82, 23);
+    border: 0.883005px solid var(--devil);
     box-shadow: rgba(0, 0, 0, 0.01) 0px 32px 13px, rgba(0, 0, 0, 0.05) 0px 18px 11px, rgba(0, 0, 0, 0.09) 0px 8px 8px, rgba(0, 0, 0, 0.1) 0px 2px 4px, rgba(0, 0, 0, 0.1) 0px 0px 0px;
     border-radius: 28px;
     text-decoration: none;

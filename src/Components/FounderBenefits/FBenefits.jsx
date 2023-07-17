@@ -7,6 +7,8 @@ import Ill5 from '../../assets/ill/ill-3.png'
 import Ill6 from '../../assets/ill/ill-4.png'
 import Ill3 from '../../assets/ill/mentor3.jpg'
 import Ill4 from '../../assets/ill/mentor4.jpg'
+import stPro from '../../assets/startupProcess.png'
+import stProD from '../../assets/startupProcessMQ.png'
 
 
 const FBenefits = () => {
@@ -23,9 +25,9 @@ const FBenefits = () => {
                             <img src={Ill1} className="fb-iconn" />
                         </div>
                         <div className="fb-text">
-                            <h2>Post Project</h2>
+                            <h2>Funding Opportunities</h2>
                             <p>
-                                Our intense programs are taught by industry experts & candidates are job ready as they work on relevant projects.
+                            As a registered startup, you gain access to our network of investors who are actively seeking investment opportunities. 
                             </p>
 
 
@@ -37,9 +39,9 @@ const FBenefits = () => {
                             <img src={Ill2} className="fb-iconn" />
                         </div>
                         <div className="fb-text">
-                            <h2>Post Project</h2>
+                            <h2>Investor Connections</h2>
                             <p>
-                                Our intense programs are taught by industry experts & candidates are job ready as they work on relevant projects.
+                            We facilitate introductions and connections with potential investors who are aligned with your industry and investment preferences.
                             </p>
 
 
@@ -54,9 +56,9 @@ const FBenefits = () => {
                             <img src={Ill3} className="fb-iconn" />
                         </div>
                         <div className="fb-text">
-                            <h2>Post Project</h2>
+                            <h2>Enhanced Credibility</h2>
                             <p>
-                                Our intense programs are taught by industry experts & candidates are job ready as they work on relevant projects.
+                            Being registered with us  demonstrates that your venture has undergone a screening process and has met certain criteria, which can instill confidence in potential investors and stakeholders.
                             </p>
 
 
@@ -68,9 +70,9 @@ const FBenefits = () => {
                             <img src={Ill4} className="fb-iconn" />
                         </div>
                         <div className="fb-text">
-                            <h2>Post Project</h2>
+                            <h2>Visibility and Exposure</h2>
                             <p>
-                                Our intense programs are taught by industry experts & candidates are job ready as they work on relevant projects.
+                            Registering with us can increase your startup's visibility and exposure to a wider audience.
                             </p>
 
 
@@ -85,9 +87,9 @@ const FBenefits = () => {
                             <img src={Ill5} className="fb-iconn" />
                         </div>
                         <div className="fb-text">
-                            <h2>Post Project</h2>
+                            <h2>Networking Opportunities</h2>
                             <p>
-                                Our intense programs are taught by industry experts & candidates are job ready as they work on relevant projects.
+                            We provide various networking events, industry conferences, and workshops where you can connect with other entrepreneurs, industry leaders, and potential collaborators.
                             </p>
 
 
@@ -99,9 +101,9 @@ const FBenefits = () => {
                             <img src={Ill6} className="fb-iconn" />
                         </div>
                         <div className="fb-text">
-                            <h2>Post Project</h2>
+                            <h2>Educational Resources</h2>
                             <p>
-                                Our intense programs are taught by industry experts & candidates are job ready as they work on relevant projects.
+                            We offer access to educational resources, webinars, and workshops that can enhance your entrepreneurial skills and knowledge.
                             </p>
 
 
@@ -111,9 +113,10 @@ const FBenefits = () => {
 
             </div>
 
-            <div className="timeline">
-            <img src="https://slidebazaar.com/wp-content/uploads/2019/12/7-stage-timeline-infographic-template.jpg" alt="" />
-            </div>
+            <div className="ib-timeline">
+<img className='dis' src={stPro} alt="" />
+<img src={stProD} alt="" className="appe" />
+</div>
         </div>
     )
 }

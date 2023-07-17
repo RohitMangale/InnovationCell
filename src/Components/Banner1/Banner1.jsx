@@ -12,7 +12,7 @@ const Banner1 = () => {
                 </div>
 
                 <div className="b1-right">
-                        <h2 className="b1-heading"> <span>Aviator</span> <br /> Remote controller</h2>
+                <h2 className="b1-heading"> <span>Latest Course</span> <br /> Or latest Event</h2>
                         <ul>
                             <li>Elegant design</li>
                             <li>Perfect grip</li>

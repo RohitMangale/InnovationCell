@@ -1,11 +1,22 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './Footer.css'
+import logoImg from '../../assets/droneair.png'
 
 
-import {Link} from 'react-router-dom'
+
+import {Link, useLocation} from 'react-router-dom'
 
 
 const Footer = () => {
+
+    const location  = useLocation();
+
+    useEffect(() => {
+        window.scrollTo(0,0);
+    },[location]);
+
+
+
   return (
 
 
@@ -15,52 +26,44 @@ const Footer = () => {
         <div className="sub-links">
             {/* <div className="row"> */}
                 <div className="con ">
-                <h1>About Us</h1>
-                <p>Debitis sunt mollitia laboriosam quo sequi voluptas cumque eaque non culpa veritatis aperiam ipsam rerum ipsa, aut corrupti, necessitatibus, numquam consequatur repudiandae quod! Quaerat voluptatum repellat mollitia.</p>
+                <h1>About</h1>
+                <p>We are creating a ecosystem to foster collaboration, innovation, and industry-academia partnerships in the drone industry. </p>
                 </div>
                 <div className="con">
-                <h1>Shop</h1>
-                <p><a className='link' ><Link to='/faqs'>FAQs</Link></a></p>
+                <h1>Contact</h1>
+                {/* <p><a className='link' ><Link to='/rulee'>Rules</Link></a></p> */}
                 <p><a className='link'><Link to='/contactus'>Contact Us</Link></a></p>
-                <p><a className='link'><Link to='/rules'>Rules & Regulations</Link></a></p>
-                <p><a className='link'><Link to='/curriculumpage'>Curriculum</Link></a></p>
-                </div>
-            {/* </div> */}
-            {/* <div className="row"> */}
-                <div className="con">
-                <h1>Dashboards</h1>
-                <p><a className='link' href='/'><Link to='/form'>Form</Link></a></p>
+                {/* <p><a className='link' href='/'><Link to='/form'>Form</Link></a></p> */}
                 <p><a className='link' href='/'><Link to='/mentorfilter'>Mentor Filter</Link></a></p>
-                <p><a className='link' href='/'><Link to='/store'>Store</Link></a></p>
-                <p><a className='link' href='/'><Link to='/drone'>Drone</Link></a></p>
-
                 </div>
                 <div className="con">
-                <h1>Support</h1>
+                <h1>Other Links</h1>
                 <p><a className='link' ><Link to='/incubationPage'>Incubation</Link></a></p>
                 <p><a className='link' ><Link to='/researchDev'>R&D</Link></a></p>
                 <p><a className='link' ><Link to='/insurancePage'>Insuarance</Link></a></p>
-                <p><a className='link' ><Link to='/mentors'>Mentor</Link></a></p>
+
+
                 </div>
+
             {/* </div> */}
             <div className="con ">
                 <h1>Subscribe</h1>
-                <p><a className='link' ><Link to='/incubationPage'>Incubation</Link></a></p>
-                <p><a className='link' ><Link to='/researchDev'>R&D</Link></a></p>
-                <p><a className='link' ><Link to='/insurancePage'>Insuarance</Link></a></p>
-                <p><a className='link' ><Link to='/mentors'>Mentor</Link></a></p>
+                <p><a className='link' ><Link to='/admin_dashbaord'>Admin DB</Link></a></p>
+                {/* <p><a className='link' ><Link to='/indProfolio'>Mentor DB</Link></a></p>
+                <p><a className='link' ><Link to='/menBoard'>Industry DB</Link></a></p>
+                <p><a className='link' ><Link to='/indProfolio'>Student DB</Link></a></p> */}
             </div>
         </div>
         
         <div className="links">
-            <div className="logo">
-                <h1>LOGO</h1>
-            </div>
+        {/* <div class="logo">
+            <img src={logoImg} alt="" />
+          </div> */}
             <div className="main-links">
                 <a className='link' href='/'>Home</a>
-                <a className='link' href='/'>About</a>
-                <a className='link' href='/'>Features</a>
-                <a className='link' href='/'>Service</a>
+                <a className='link' href='/internMain'>Internship</a>
+                <a className='link' href='/students'>Courses</a>
+                <a className='link' href='/drone'>Drone</a>
             </div>
             <div className="social-icons">
             <a className='link' href='/'><i class="fa-brands fa-whatsapp"></i></a>
@@ -72,7 +75,7 @@ const Footer = () => {
         </div>
         
         <div className="reserved">
-            <p>© Name of Compony All Rights Reserved. | Design By DROP</p>
+            <p>© Droneairgear All Rights Reserved</p>
         </div>
 
     </div>

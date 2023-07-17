@@ -1,9 +1,27 @@
 import React from 'react'
 import './Insaurance.css'
+import { Link } from 'react-router-dom'
+import InsurPage from '../../assets/intern-pogo.jpg'
 
 const Insuarance = () => {
   return (
-    <div>
+    <div style={{padding: '100px 0 0'}}>
+        <div id="intern_pro" >
+        <div className="intern_pro" style={{padding: '70px 1rem'}}>
+            <div className="intern_pro_img">
+                <img src={InsurPage} alt="" />
+            </div>
+            <div className="intern_pro_info">
+                <span>Secure your Drones</span>
+                <h1>Drone Insurance Tailored to Your Specific Needs</h1>
+                <p>Our drone insurance policies provide coverage for both commercial and personal use of drones, and we offer a variety of coverage options to meet your specific needs. Whether you need coverage for a single drone or an entire fleet, we can help you find the policy that fits your needs and budget.</p>
+                
+                <div className="uni_btn">
+                        <Link to='/insuaranceForm' className='uni_button'>Contact us</Link>
+                    </div>
+            </div>
+        </div>
+    </div>
         <div className="di-covered">
             <h1>What is Covered?</h1>
             <div className="di-coveredin">
@@ -88,11 +106,6 @@ const Insuarance = () => {
                 </div>
 
                 <div className="di-partone">
-                    <img src="https://tropogo.com/insurance/assets/images/home/ic_serialno.svg" alt="" />
-                    <h3>Drone Serial Number</h3>
-                    <p>Unique Serial number marked on your drone</p>
-                </div>
-                <div className="di-partone">
                     <img src="https://tropogo.com/insurance/assets/images/home/ic_drone_images.svg" alt="" />
                     <h3>Drone Images</h3>
                     <p>Latest Images of your drone</p>
@@ -111,29 +124,29 @@ const Insuarance = () => {
         <div className="di-whyus">
             <div className="di-boxone">
                 <img src="https://tropogo.com/insurance/assets/images/home/ic_drone_insurance.svg" alt="" />
-                <h2>India’s First & Most Trusted Drone Insurance Partner</h2>
-                <p>Policies are underwritten by TATA AIG, Bajaj Alliance & National Insurance.</p>
+                <h2>Comprehensive Coverage</h2>
+                <p>When you get your drone insurance from us, you can expect comprehensive coverage that protects you against various risks and liabilities.</p>
                 <small>We Bond with the Best!</small>
             </div>
 
             <div className="di-boxone">
                 <img src="https://tropogo.com/insurance/assets/images/home/ic_less_sales.svg" alt="" />
-                <h2>India’s First & Most Trusted Drone Insurance Partner</h2>
-                <p>Policies are underwritten by TATA AIG, Bajaj Alliance & National Insurance.</p>
+                <h2>Responsive Claims Handling</h2>
+                <p>In the unfortunate event of a claim, our dedicated claims handling team is here to provide prompt and efficient assistance.</p>
                 <small>We Bond with the Best!</small>
             </div>
 
             <div className="di-boxone">
                 <img src="https://tropogo.com/insurance/assets/images/home/ic_lowest_premium.svg" alt="" />
-                <h2>India’s First & Most Trusted Drone Insurance Partner</h2>
-                <p>Policies are underwritten by TATA AIG, Bajaj Alliance & National Insurance.</p>
+                <h2>Competitive Pricing</h2>
+                <p>We strive to offer competitive pricing for our drone insurance policies.</p>
                 <small>We Bond with the Best!</small>
             </div>
 
             <div className="di-boxone">
                 <img src="https://tropogo.com/insurance/assets/images/home/ic_insurance+.svg" alt="" />
-                <h2>India’s First & Most Trusted Drone Insurance Partner</h2>
-                <p>Policies are underwritten by TATA AIG, Bajaj Alliance & National Insurance.</p>
+                <h2>Risk Management Support</h2>
+                <p>Beyond insurance coverage, we provide risk management support to help you mitigate and minimize potential risks.</p>
                 <small>We Bond with the Best!</small>
             </div>
         </div>

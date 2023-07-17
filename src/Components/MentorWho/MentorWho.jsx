@@ -7,22 +7,19 @@ const MentorWho = () => {
       <div className="mw-left">
         <h1 className="mw-heading">Who Can Become a Mentor?</h1>
         <p>
-          MAARG Program by Startup India invites experts to register and provide
-          guidance to startups throughout the year.
-          MAARG Program by Startup India invites experts to register and provide
-          guidance to startups throughout the year.
+        At [Website Name], we believe in the power of mentorship to inspire, guide, and empower individuals on their personal and professional journeys. Our mentorship program connects you with experienced mentors who are passionate about sharing their knowledge and expertise.
         </p>
         <div className="mw-buttons">
-            <div className="mw-btn1">
+            <div className="btn">
                 Mentor Application
             </div>
-            <div className="mw-btn2">
+            <div className="btn">
                 Am I ELigible?
             </div>
         </div>
       </div>
       <div className="mw-right">
-        <img src="https://cdni.iconscout.com/illustration/premium/thumb/employees-working-on-presentation-3474701-2928587.png" />
+        <img src="https://pilotinstitute.com/wp-content/uploads/2020/07/UDPG-960.jpg" />
       </div>
     </div>
   );

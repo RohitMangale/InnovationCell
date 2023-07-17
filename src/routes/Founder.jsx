@@ -5,16 +5,20 @@ import Testimonials from '../Components/Testimonials/Testimonials'
 import Footer from '../Components/Footer/Footer'
 import FBenefits from '../Components/FounderBenefits/FBenefits'
 import FPartners from '../Components/FPartners/FPartners'
+import Startup2 from '../Components/Startup2/Startup2'
+import Start_Header from '../Components/Start_Header/Start_Header'
+
 
 const Founder = () => {
   return (
     <div>
-    <Navbar />
-    <Slider />
+    {/* <Slider /> */}
+    {/* <Startup2 /> */}
+
+    <Start_Header/>
     <FBenefits />
     <FPartners />
     <Testimonials />
-    <Footer />
     </div>
   )
 }

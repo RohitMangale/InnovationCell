@@ -1,28 +1,33 @@
 import React from 'react'
 
 import './Universitie.css'
+import { Link } from 'react-router-dom'
+import Complogo from '../../assets/comp-logo.png'
+import handjob from '../../assets/handjob.png'
+import groupstudy from '../../assets/group_study.png'
 const Universitie = () => {
+    
   return (
     <div id="universitie">
-      <div className="block">
+      <div className="uniblock">
             <div className="uni_landing_bg">
 
             
             <div className="uni_landing">
                 <div className="uni_land_left">
                     <h1>
-                        Strengthen employability to attract more students
+                    Empowering Minds Transforming Lives at Confly Designs
                     </h1>
                     <p>
-                        Equip students with the most in-demand skills and prepare them for job success.
+                    At [University Name], we believe in empowering minds and transforming lives through exceptional education and transformative experiences.
                     </p>
                     <div className="uni_btn">
-                        <a href='/' className='uni_button'>Contact us</a>
+                        <Link to='/university_registration' className='uni_button'>Contact us</Link>
                     </div>
                     
                 </div>
                 <div className="uni_land_right">
-                    <img src="https://images.ctfassets.net/2pudprfttvy6/4Flr3pfiVTFES3TdTJrZiZ/f3985ddcfd98b7d0acd0760243cb4875/c4c-homepage-hero.jpg" alt="" />
+                    <img src={groupstudy} alt="" />
                 </div>
             </div>
             </div>
@@ -63,22 +68,22 @@ const Universitie = () => {
         <div className="uni_partner_bg">
         <div className="uni_partners">
             <div className="partners_info">
-                <h1>Offer students 5,400 courses from 275+ leading universities and industry partners</h1>
-                <p>Introducing Front-End Development MicroBootCamp.™️ An 8-week expert-led program designed to rapidly reskill and upskill employees in front-end web development. Secure seats for your employees today - Starting 1 May</p>
+                <h1>Offer students 5,400 courses with Internships and Career Development Programs</h1>
+                <p>Courses provides a comprehensive introduction to the world of drones, covering topics such as drone components, flight operations, regulations, and safety. Discover the applications of drones in mapping and surveying. Gain insights into the technical aspects of drones, including their components, systems, and maintenance.</p>
             </div>
-            <img className='partners_img' src="https://www.edx.org/contentful/ii9ehdcj88bc/1DPU1t569diy1GREgbCjsP/a0985b7471635903cb410f36fac6756d/MicroBootcamps.png?w=580&fm=webp" alt="" />
+            <img className='partners_img' src={Complogo} alt="" />
         </div>
         </div>
 
         <div className="uni_imp_bg">
         <div className="uni_imp">
             <div className="uni_imp_left">
-                <img src="https://images.ctfassets.net/2pudprfttvy6/22Idxx2D2dyALpIoJznkQD/fba6cc9a2cce8aa1832a5af642af6dfb/c4c-image-home-career-academy.jpg" alt="" />
+                <img src={handjob} alt="" />
             </div>
             <div className="uni_imp_right">
-                <p className='sub_heading'>CAREER ACADEMY</p>
-                <h1>Prepare your students for in-demand jobs</h1>
-                <p>Strengthen student employability with skills training from the world's leading companies.</p>
+                <p className='sub_heading'>COMPANY NAME</p>
+                <h1>Future-ready education for high-demand careers</h1>
+                <p>Empowering Students with Cutting-Edge Skills from Global Industry Leaders.</p>
 
                 <p className='uni_imp_info_heading'>
                     With Career Academy, enable your students to:
@@ -117,7 +122,7 @@ const Universitie = () => {
         <div className="uni_curriculum_bg">
         <div className="uni_curriculum">
             <div className="curri_heading">
-                <h1>Expand your curriculum and empower your faculty</h1>
+                <h1>Broaden your academic offerings and enable your faculty to excel</h1>
                 <p>Deliver practical, job-relevant learning experiences with professional content and courses from university and industry experts</p>
             </div>
             <div className="curri_blocks">
@@ -171,22 +176,22 @@ const Universitie = () => {
             <div className="uni_partner_left">
             <ul>
                 <li>
-                    <img src="https://images.ctfassets.net/2pudprfttvy6/2XqR8ObqoLUWLg9re09bNX/f577e3e2a72b79133226650961636371/tec-de-monterrey-seeklogo.com.svg" alt="Tecnológico de Monterrey" width="auto"/>
+                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/1/1d/Indian_Institute_of_Technology_Bombay_Logo.svg/1200px-Indian_Institute_of_Technology_Bombay_Logo.svg.png" alt="Tecnológico de Monterrey" width="auto"/>
                 </li>
                 <li>
-                    <img src="https://images.ctfassets.net/2pudprfttvy6/54lbV33tUKvvBcwNGtckG2/49c39bdb7dc526bf46e28a564768e50e/University_of_Michigan_logo.svg" alt="University of Michigan" width="auto" />
+                    <img src="https://seeklogo.com/images/V/vjti-college-logo-707F46CDA8-seeklogo.com.png" alt="University of Michigan" width="auto" />
                 </li>
                 <li className='border_right'>
-                    <img src="https://images.ctfassets.net/2pudprfttvy6/6GkQMj8kJka4rbRfUZssA9/2dff6059d6fd92717503aa1e6bd25a20/Imperial_College_London.svg" alt="Imperial College London" width="auto" />
+                    <img src="https://gpmumbai.ac.in/gpmweb/wp-content/uploads/2021/04/GPM-LOGO-2021.png" alt="Imperial College London" width="auto" />
                 </li>
                 <li className='border_bottom'>
-                    <img src="https://images.ctfassets.net/2pudprfttvy6/5xhVcB29RK2Bt6AThlokKU/ccff5cdcf16619740cf6bbff12e0a711/the-university-of-melbourne-vector-logo.png" alt="The University of Melbourne" width="auto" />
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjQTreKBUdm5NnDNvmN0s6eOk8neFV1cALNH10Hy6D6vb-9JrALWinq8aRJsw8EKGBCzOVj1nnk9s&usqp=CAU&ec=48665698" alt="The University of Melbourne" width="auto" />
                 </li>
                 <li className='border_bottom'>
-                    <img src="https://images.ctfassets.net/2pudprfttvy6/4vDQPYaiX1yJ2juCP44eSS/7fb188a6ef815fb09ca1e5dc39467c21/manipal-university-logo.png" alt="Manipal University" width="auto" />
+                    <img src="https://www.careerindia.com/img/400x100/2012/07/02-directorateoftechnicaleducationmaharashtra.jpg" alt="Manipal University" width="auto" />
                 </li>
                 <li className='border_bottom border_right'>
-                    <img src="https://images.ctfassets.net/2pudprfttvy6/29R4WJGFio5DXNxgm9re49/72e4ae122728f41dffcb32d4095d30bd/nmims-logo.png" alt="NMIMS" width="auto" />
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/3/3b/Msbte.png" alt="NMIMS" width="auto" />
                 </li>
                 </ul>
             </div>

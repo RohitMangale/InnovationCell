@@ -7,19 +7,19 @@ import MentorWho from '../Components/MentorWho/MentorWho'
 import MentorRole from '../Components/MentorRole/MentorRole'
 import MentorD from '../Components/MentorD/MentorD'
 import MentorPro from '../Components/MentorPro/MentorPro'
-import MentorBen from '../Components/MentorBen/MentorBen'
+import Mentor_Landing from '../Components/Mentor_Landing/Mentor_Landing/Mentonlanding'
+import Nearmentor from '../Components/NearCEP/Nearmentor'
 
 
 const Mentors = () => {
   return (
     <div>
-      <Navbar />
-      <MentorWho />
-      <MentorRole />
+      <Mentor_Landing />
+      {/* <MentorWho /> */}
+      <Nearmentor/>
       <MentorD />
-      <MentorBen />
-      <Mentor_1 />
-      <Footer />
+      {/* <MentorBen /> */}
+      {/* <Mentor_1 /> */}
     </div>
   )
 }

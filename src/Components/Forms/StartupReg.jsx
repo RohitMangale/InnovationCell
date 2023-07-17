@@ -92,7 +92,9 @@ const Student = () => {
           <input type="text" placeholder="Present Annual Revenue (in Lakhs)" required />
           <input type="text" placeholder="Stage of Company" required />
         </div>
-
+        <button className="btn">
+          Join Us
+        </button>
       </div>
     </div>
   );

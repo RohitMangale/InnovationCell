@@ -12,7 +12,7 @@
 
 .talent .t-left{
     width: 50%;    
-    padding: 1rem 0 0 0;
+    padding:  0;
     display: flex;
     height: 100%;
     object-fit: cover;
@@ -36,9 +36,9 @@
 .talent .t-right .t-heading{
     max-width: 1280px;
     width: 100%;
-    font-size: 48px;
+    font-size:var(--heading);
     /* padding: 0  0 0 2.5rem; */
-    color: #1a1a1a;
+    color: var(--bg-black);
     font-weight: 700;
     line-height: 1.1;
     margin: 0 auto 10px auto;
@@ -80,7 +80,8 @@ background-color: #ffffff;
 }
 .talent .t-right .t-box .t-text h4{
     font-size: 24px;
-    color: #1a1a1a;
+    align-items: center;
+    color: var(--bg-black);
     display: flex;
     flex-direction: row;
     gap: 0.8rem;
@@ -89,8 +90,8 @@ background-color: #ffffff;
 
 }
 .talent .t-right .t-box .t-text p{
-    /* margin-bottom: 20px; */
-    font-size: 18px;
+    margin-bottom: 20px;
+    font-size: var(--para);
     line-height: 1.2;
     font-weight: 400;
     color: #292929;

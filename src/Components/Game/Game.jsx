@@ -4,6 +4,10 @@ import "./Game.css";
 import { SlNote } from "react-icons/sl";
 import { BsFillPinAngleFill } from "react-icons/bs";
 import { AiOutlineFileProtect } from "react-icons/ai";
+
+import colab from "../../assets/g-collaborate.png";
+import mega from "../../assets/g-megaphone.png";
+import trans from "../../assets/g-transfer.png";
 // import Superb from '../../assets/superb.jpeg'
 
 const Game = () => {
@@ -16,17 +20,17 @@ const Game = () => {
             className="appear"
           ></img>
           <img
-            src="https://thumbs.dreamstime.com/b/group-persons-making-drone-training-course-la-juliana-aerodrome-seville-spain-may-skydive-spain-skydiving-center-76886703.jpg"
+            src="https://images3.alphacoders.com/667/667063.jpg"
             className="disappear"
           ></img>
         </div>
 
         <div className="g-right">
-          <h2 className="g-heading">Up your work game, it’s free.</h2>
+        <h2 className="g-heading">Industrial Hiring</h2>
 
           <div className="g-box">
             <div className="gcon">
-              <SlNote />
+            <img src={colab} alt="" />
               <div className="g-jugad"></div>
             </div>
             <div className="g-text">
@@ -40,7 +44,7 @@ const Game = () => {
 
           <div className="g-box">
             <div className="gcon">
-              <BsFillPinAngleFill />
+            <img src={mega} alt="" />
               <div className="g-jugad"></div>
             </div>
             <div className="g-text">
@@ -54,7 +58,7 @@ const Game = () => {
 
           <div className="g-box">
             <div className="gcon">
-              <AiOutlineFileProtect />
+            <img src={trans} alt="" />
               <div className="g-jugad"></div>
             </div>
             <div className="g-text">

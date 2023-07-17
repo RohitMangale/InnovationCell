@@ -4,7 +4,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #f3f3f3;
+    background-color: #ffffff;
 
 }
 .learning{
@@ -22,9 +22,9 @@
 .learning h1{
     max-width: 1280px;
     width: 100%;
-    font-size: clamp(1.5rem,3.5vw,3.2rem);
+    font-size: var(--heading);
     padding: 0  0 0 2.5rem;
-    color: #1a1a1a;
+    color:  var(--bg-black);
     font-weight: 700;
     line-height: 1.1;
     margin: 0 auto 15px auto;
@@ -67,8 +67,8 @@
 }
 .learning .l-row .l-box .l-text h4{
     font-size: var(--small);
-    height: 40px;
-    color: #2e2e2e;
+    height: 60px;
+    color: #333;
     text-align: left;
     font-weight: 600;
     margin-bottom: 15px;

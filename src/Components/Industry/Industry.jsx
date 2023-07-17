@@ -1,56 +1,86 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import Aos from 'aos'
+import "aos/dist/aos.css"
 import './Industry.css'
+import dronde from '../../assets/droned.png'
+import megaphone from '../../assets//megaphone.png'
+import graph from '../../assets//graph.png'
+import pencil from '../../assets//pencil.png'
+import recruitment from '../../assets//recruitment.png'
+import review from '../../assets//review.png'
+import analytics from '../../assets//analytics.png'
+import dollar from '../../assets/dollar.png'
+
+import tab from './HH.png'
+import mobile from './DF.png'
+import laptop from './11.png'
+
+import {BsCurrencyDollar} from 'react-icons/bs';
+import { Link } from 'react-router-dom'
+
 const Industry = () => {
+    useEffect(() => {
+        Aos.init({
+            duration:600,
+            easing:"ease",
+            once:true,
+        });
+    });
   return (
     <div id="industry">
+    <div className="industy_bg">
         <div className="industry_landing">
-            <div className="landing_text_area">
-                <h1>Your employer brand starts here.</h1>
-                <p>Authentic reviews, rich storytelling and powerful insights, found only on Glassdoor, help you attract top talent.</p>
+            <div className="landing_text_area" data-aos="fade-right" data-aos-delay="100" >
+                <h1>Join us in creating innovative solutions, Experiance and Employmeant </h1>
+                <p>Exploring New Possibilities and Collaborating for Innovation and Success</p>
 
                 <div className="uni_btn">
-                    <a href='/' className='uni_button'>Get Started</a>
+                    <Link to='/industry_registration' className='uni_button'>Get Started</Link>
                 </div>
             </div>
+            <div className="industry_dummy">
+                
+            </div>
+        </div>
         </div>
 
         <div className="ind_why_us">
-            <div className="why_us_heading">
-                <h1>Why hire on Company Name?</h1>
+            <div className="why_us_heading" data-aos="fade-up" data-aos-delay="100">
+                <h1>Collaborative Support For internship and Funding</h1>
                 <p>Post jobs and find your ideal candidate</p>
             </div>
-            <div className="why_us_trade">
+            <div className="why_us_trade" data-aos="fade-up" data-aos-delay="400">
                 <div className="trade">
                     <div className="why_us_content">
                         <div className="rating">
-                            21 Mn+
+                            21
                         </div>
                         <div className="content">
-                            candidates looking for jobs and internships
+                            Candidates Hired till Now
                         </div>
                     </div>
                     <div className="why_us_content">
                         <div className="rating">
-                            1.5 Mn+
+                            3
                         </div>
                         <div className="content">
-                        candidates hired PAN India
+                        Companies Got Funding.
                         </div>
                     </div>
                     <div className="why_us_content">
                         <div className="rating">
-                        200+
+                        200
                         </div>
                         <div className="content">
-                        job profiles in business, tech, and more
+                        Applications of the candidates
                         </div>
                     </div>
                     <div className="why_us_content border_none">
                         <div className="rating">
-                        300 K+
+                        5
                         </div>
                         <div className="content">
-                        companies hiring on Internshala
+                        No. of companies Joined till now
                         </div>
                     </div>
                 </div>
@@ -58,123 +88,185 @@ const Industry = () => {
         </div>
 
         <div className="ind_adv">
-            <div className="ind_adv_heading">
-                <h1>Ready to join the conversation that's shaping your employer brand?</h1>
-                <p>Go beyond reviews and boost talent acquisition with an active, compelling presence on Glassdoor</p>
+            <div className="ind_adv_max">
+            <div className="ind_adv_heading" data-aos="fade-right" data-aos-delay="100">
+                <h1>Ready for the collobration that's shaping your industry </h1>
+                <p> Don't miss the opportunity, Get started today itself.</p>
             </div>
-            <div className="ind_adv_info">
+            <div className="ind_adv_info" data-aos="fade-right" data-aos-delay="400">
                 <div className="adv_info">
                     <div className="adv_info_logo">
-                        <img src="https://www.glassdoor.com/employers/app/uploads/2020/11/icon-megaphone-1.svg?x60772" alt="" />
+                        <img src={megaphone} alt="" />
                     </div>
                     <div className="adv_info_sub_info">
-                        <h1>Reach engaged, quality talent</h1>
+                        <h1>Hire Candidates</h1>
                         <p>
-                        The majority of U.S. Glassdoor users are job seekers actively looking for a new job.
+                        Hire Completly trained and siklled workers from [company name] 
                         </p>
                     </div>
                 </div>
                 <div className="adv_info">
                     <div className="adv_info_logo">
-                        <img src="https://www.glassdoor.com/employers/app/uploads/2020/11/icon-magnet-1.svg?x60772" alt="" />
+                    <img src={dollar} alt="" />
                     </div>
                     <div className="adv_info_sub_info">
-                        <h1>Inflrfuence candidates with your authentic brand story</h1>
+                        <h1>Get Funding from us.</h1>
                         <p>
-                        3 out of 4 users are more likely to apply to an open job if the employer is active on Glassdoor.
+                        Funding for the innovation and progress is available.
                         </p>
                     </div>
                 </div>
                 <div className="adv_info">
                     <div className="adv_info_logo">
-                        <img src="https://www.glassdoor.com/employers/app/uploads/2020/11/icon-analytics.svg?x60772" alt="" />
+                        <img src={graph} alt="" />
                     </div>
                     <div className="adv_info_sub_info">
-                        <h1>Listen for actionable insights</h1>
+                        <h1>Internship coduction</h1>
                         <p>
-                        Monitor brand analytics and reporting to drive improvements in the employee experience.
+                        Internship Program can be organised and manage offline as well as online.
                         </p>
                     </div>
                 </div>
+            </div>
             </div>
         </div>
 
+
         <div className="ind_emp_branding">
-            <div className="branding_heading">
-                <div className="sub_heading">Employer branding</div>
+            <div className="ind_emp_max">
+            <div className="branding_heading" data-aos="fade-right" data-aos-delay="100" >
+                <div className="sub_heading">Mainly focus on Drones</div>
                 <div className="design"></div>
-                <h1>Make the most of your employer brand with Glassdoor</h1>
+                <h1>Revolutionizing Industries with Advanced Drone Technology</h1>
                 <p>Glassdoor’s employer branding solutions tell job seekers why they want to work at your company and help uncover ways to improve your employee experience.</p>
             </div>
-            <div className="branding_img">
-                <img src="https://www.glassdoor.com/employers/app/uploads/2020/11/screenshot_showcase-your-brand_ENG-1.svg" alt="" />
+            <div className="branding_img" data-aos="fade-left" data-aos-delay="400">
+                <img src={dronde} alt="" />
+            </div>
             </div>
         </div>
 
         <div className="ind_process_com">
+        <div className="ind_process_max">
             <div className="ind_process">
-                <div className="ind_pro_info">
-                    <h1>Your future hires want to know more</h1>
-                    <p>Job seekers come to Glassdoor to get the inside scoop on what it’s like to work at your company. Help your employer brand stand out.</p>
+                <div className="ind_pro_info"  data-aos="fade-up" data-aos-delay="100" >
+                    <h1>Expand Your Skills</h1>
+                    <p>Collaboration leads to several benefits for companies, including expansion. By collaborating with other companies, businesses can gain access to new markets, customers, and resources. </p>
                 </div>
-                
-                <div className="ind_pro_sub_info">
+
+                <div className="industryImg">
+        <div className="mentorInfoImg">
+        <img src={laptop} className='lap' alt="" />
+        <img src={tab} className='tab' alt="" />
+        <img src={mobile} className='mob' alt="" />
+    </div>
+        </div>
+{/*                 
+                <div className="ind_pro_sub_info" data-aos="fade-right" data-aos-delay="400" >
                     <div className="pro_sub">
                         <div className="pro_logo">
-                            <img src="https://www.glassdoor.com/employers/app/uploads/2020/11/icon-pen.svg?x60772" alt="" />
+                            <img src={pencil} alt="" />
                         </div>
                         <div className="pro_sub_info">
-                            <h1>Tell your story</h1>
-                            <p>Tell candidates why you’re a place they should want to work, and highlight your unique mission statement, logo and more.</p>
+                            <h1>Access to New Ideas and Perspectives</h1>
+                            <p>
+                            Inviting other companies and professionals to collaborate can bring fresh ideas and perspectives to a project or industry.   </p>
                         </div>
                     </div>
 
                     <div className="pro_sub">
                         <div className="pro_logo">
-                            <img src="https://www.glassdoor.com/employers/app/uploads/2020/11/icon_recruit_aquisition.svg?x60772" alt="" />
+                            <img src={recruitment} alt="" />
                         </div>
                         <div className="pro_sub_info">
-                            <h1>Reach & influence talent</h1>
-                            <p>Shape your brand perception by surfacing awards, ratings and reviews, plus compelling company updates.</p>
-                        </div>
-                    </div>
-
-                    <div className="pro_sub">
-                        <div className="pro_logo">
-                            <img src="https://www.glassdoor.com/employers/app/uploads/2020/11/icon-reviews.svg?x60772" alt="" />
-                        </div>
-                        <div className="pro_sub_info">
-                            <h1>Go beyond reading reviews</h1>
-                            <p>Show you’re listening by responding to reviews and showcase your exceptional employee experience by requesting even more.</p>
-                        </div>
-                    </div>
-
-                    <div className="pro_sub">
-                        <div className="pro_logo">
-                            <img src="https://www.glassdoor.com/employers/app/uploads/2020/11/icon-analytics-1.svg?x60772" alt="" />
-                        </div>
-                        <div className="pro_sub_info">
-                            <h1>Do more with rich analytics</h1>
-                            <p>Filter ratings and reviews by job title, location and employment status to better monitor how your brand is perceived.</p>
+                            <h1>Shared Resources</h1>
+                            <p>
+                            Collaboration can provide access to resources that may not be available to individual companies. This can include funding, and knowledge-sharing.                            </p>
                         </div>
                     </div>
 
                     
+
+                    
                 </div>
+
+                <div className="ind_pro_sub_info" data-aos="fade-left" data-aos-delay="400">
+                    
+
+                    <div className="pro_sub">
+                        <div className="pro_logo">
+                            <img src={review} alt="" />
+                        </div>
+                        <div className="pro_sub_info">
+                            <h1>Increased Efficiency</h1>
+                            <p>
+                            Collaboration can help streamline processes and increase efficiency in a project or industry. By dividing up tasks and responsibilities, companies can work more effectively and complete projects in a shorter amount of time.                            </p>
+                        </div>
+                    </div>
+
+                    <div className="pro_sub">
+                        <div className="pro_logo">
+                            <img src={analytics} alt="" />
+                        </div>
+                        <div className="pro_sub_info">
+                            <h1>Networking Opportunities</h1>
+                            <p>
+                            Collaborating with other companies and professionals provides networking opportunities that can be beneficial for future projects or business endeavors. It allows for the creation of new business relationships.                            </p>
+                        </div>
+                    </div>
+
+                    
+                </div> */}
+            </div>
             </div>
         </div>
 
-        <div className="ind_banner">
-            <div className="logo">
-                <img src="https://www.glassdoor.com/employers/app/uploads/sites/2/2020/11/Icertis-logo-01-01-3.svg" alt="" />
+
+        {/* <div className="ind_banner">
+            <div className="logo" data-aos="fade-left" data-aos-delay="300">
+                ConflyDesigns
             </div>
-            <div className="info">
-            “Our appearance on Glassdoor is our top priority. We work hard to keep employees engaged and maintain our high rating on Glassdoor. We know that top talent is paying attention.”
+            <div className="info" data-aos="fade-left" data-aos-delay="300">
+            “Save time and effort by finding the nearest drone industries with just a few clicks. Start exploring now!”
             </div>
-            <div className="write_by">
-            — Neha Kalbande, HR Manager at Icertis
+            <Link to="/industry_listdown" className="write_by" data-aos="fade-left" data-aos-delay="300">
+            — Know More 
+            </Link>
+        </div> */}
+
+<div className="uni_partner_bg">
+        <div className="our_uni_partner">
+            <div className="uni_partner_right">
+                <h1>
+                    Supercharge your success, unlock boundless opportunities for limitless growth.
+                </h1>
             </div>
+            <Link to="/industry_listdown" className="uni_partner_left">
+            <ul>
+                <li>
+                    <img src="https://pigeonis.in/wp-content/uploads/2018/07/145x62.png" alt="Tecnológico de Monterrey" width="auto"/>
+                </li>
+                <li>
+                    <img src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/v1397209133/2cc321480e22d497732c91eb20944f75.jpg" alt="University of Michigan" width="auto" />
+                </li>
+                <li className='border_right'>
+                    <img src="https://indrones.com/images/logos/indrones_black.png" alt="Imperial College London" width="auto" />
+                </li>
+                <li className='border_bottom'>
+                    <img src="https://d33wubrfki0l68.cloudfront.net/252a32974232a48653083676b6976e205edca63c/1e9cc/img/eqd-logo_trasperncy.png" alt="The University of Melbourne" width="auto" />
+                </li>
+                <li className='border_bottom'>
+                    <img src="https://www.axldrone.com/images/logo.svg" alt="Manipal University" width="auto" />
+                </li>
+                <li className='border_bottom border_right'>
+                    <img src="https://rfly.in/wp-content/uploads/2022/08/RFLY-INNOVATIONS-LOGO-R-1-320x144.png" alt="NMIMS" width="auto" />
+                </li>
+                </ul>
+            </Link>
+            
         </div>
+        </div>
+        
     </div>
   )
 }

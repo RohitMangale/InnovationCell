@@ -1,11 +1,8 @@
 
 
-
-
-
-
 .startupro{
-    width: 1280px;
+    max-width: 1280px;
+    width: 100%;
     margin: 5rem auto;
     display: flex;
     gap: 2rem;
@@ -219,22 +216,17 @@ hr{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
 .stp-video{
     width: 100%;
     height: auto;
     margin: 40px;
 }
+
+
+
+
+
+
 
 
 
@@ -282,6 +274,7 @@ hr{
 .stp-left .stp-blk .stp-invest{
     width: 100%;
     justify-content: center;
+    height: 100%;
     display: flex;
     margin: 20px 0;
     align-items: center;    
@@ -336,6 +329,105 @@ hr{
 
 
 
+
+
+
+
+@media (max-width:1360px) {
+    
+.startupro{
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;    
+    position: relative;
+
+}
+
+.stp-right{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+
+
+.stp-left{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    z-index: 20;
+    bottom: 0;
+    left: 0;
+    padding: 0;
+    background-color: #fff;
+    align-items: center;
+    
+    box-shadow: 0 0rem 1rem rgba(0,0,0,.15)!important;
+
+}
+.stp-left .stp-blk{
+    width: 100%;
+    display: flex;
+    position: static;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    box-shadow: none;
+}
+
+.stp-left .stp-blk .stp-invest{
+    margin: 10px 0;
+    align-items: center;    
+    padding: 1rem 1rem;
+}
+
+.stp-left .stp-blk .stp-invest .stp-lbtn{
+    background-color: #185C65;
+}
+
+.stp-goal,
+.stp-goals,
+.stp-left .stp-blk .stp-table{
+display: none;  
+}
+
+
+}
+
+
+
+
+@media (max-width:600px) {
+    
+.stp-team .stp-member{ 
+    flex-direction: column;
+   margin: 2rem 0;
+
+}
+
+
+
+.stp-team .stp-member .stp-memfo{
+    flex-direction: column;
+}
+.stp-team .stp-member .stp-memfo .stp-memup{
+
+    align-items: flex-start;
+
+    flex-direction: column;
+
+
+}
+
+
+
+
+
+    
+}
 
 
 

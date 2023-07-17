@@ -14,7 +14,7 @@ import Insuaranceform from '../Components/Forms/ConMenStu'
 const Form = () => {
   return (
     <div >
-      <Navbar />
+
       <ConMenStu/>
       <IndustryReg/>
       <Institutereg/>
@@ -24,7 +24,7 @@ const Form = () => {
       <Newinternship/>
       <Student/>
       <Insuaranceform/> 
-      <Footer />
+
     </div>
   )
 }

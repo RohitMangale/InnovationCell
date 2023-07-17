@@ -1,6 +1,6 @@
 .ib-maindiv{
     width: 100%;
-    background: var(--alternate);
+    background: #3d4853;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -12,7 +12,7 @@
 .ib-hidediv{
     width: 100%;
     height: 200px;
-    background: var(--alternate);
+    background: #3d4853;
     transform: skewY(3deg);
     margin-top: -5rem;
     z-index: -10;
@@ -41,7 +41,16 @@
 .ib-textdiv p{
     font-size: 1rem;
 }
-
+.inb-img{
+    width: 100%;
+    margin: 5rem 0;
+    height: 100%;
+}
+.inb-img>img{
+    width: 100%;
+    object-fit: contain;
+    height: 100%;
+}
 .ib-imgdiv{
     width: 50%;
     height: 80vh;
@@ -100,7 +109,7 @@
 
 .ib-fourbox{
     width: 100%;
-    background: #425b76;
+    background: #3d4853;
     z-index: 10;
 }
 
@@ -161,13 +170,14 @@
 .ib-hidediv1{
     width: 100%;
     height: 200px;
-    background: #425b76;
+    background: #3d4853;
     transform: skewY(3deg);
     margin-bottom: -5rem;
     margin-top: 6rem;
     z-index: -10;
     position: relative;
 }
+
 
 @media(max-width:1360px){
     .ib-imgdiv{

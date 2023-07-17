@@ -1,9 +1,9 @@
 import React from 'react'
 import './Mentor_1.css'
 
-import Ill1 from '../../assets/ill/mentor1.jpg'
-import Ill2 from '../../assets/ill/mentor2.jpg'
-import Ill3 from '../../assets/ill/mentor3.jpg'
+import Ill1 from '../../assets/ill/register.png'
+import Ill2 from '../../assets/ill/find_mentor.png'
+import Ill3 from '../../assets/ill/connect_mentor.png'
 import Ill4 from '../../assets/ill/mentor4.jpg'
 
 const Mentor_1 = () => {
@@ -22,9 +22,9 @@ const Mentor_1 = () => {
           <img src={Ill1} className="men-iconn" />
         </div>
         <div className="men-text">
-          <h2>Post Project</h2>
+          <h2>REGISTER</h2>
           <p>
-          Our intense programs are taught by industry experts & candidates are job ready as they work on relevant projects.
+          Register as a mentor, join a cohort, or host a cohort to start your mentorship journey.
           </p>
 
         </div>
@@ -37,11 +37,9 @@ const Mentor_1 = () => {
           <img src={Ill2} className="men-iconn" />
         </div>
         <div className="men-text">
-        <h2>Find & Here</h2>
+        <h2>FIND A MATCH</h2>
           <p>
-          Our relationship managers are trained to understand your
-needs and will help you in
-the hiring process
+          Get matched by our AI platform based on sector, stage, and functional skillset.
           </p>
 
         </div>
@@ -54,11 +52,9 @@ the hiring process
           <img src={Ill3} className="men-iconn" />
         </div>
         <div className="men-text">
-          <h2>Award & Pay</h2>
+          <h2>CONNECT TO HELP</h2>
           <p>
-            Pick the right talent based on skills and experience and
-aligned to the projects you
-are hiring for.
+          Confirm to mentor startups matched by our portal or select your own startups.
           </p>
 
         </div>
@@ -73,11 +69,9 @@ are hiring for.
         <div className="men-text">
 
 
-          <h2>Work & Approve</h2>
+          <h2>MANAGE MENTORSHIP</h2>
           <p>
-          Hire the best job ready talent directly from SimpliRecruit
-at zero cost to your
-organization
+          Manage interactions and share your knowledge via our platform
           </p>
 
         </div>

@@ -14,7 +14,7 @@
     max-width: 1280px;
     width: 100%;
     font-size: clamp(1.5rem,3.5vw,3.2rem);
-    padding: 0 ;
+    padding: 0;
     color: #1a1a1a;
     font-weight: 700;
     line-height: 1.1;
@@ -89,7 +89,7 @@
 .ib-timeline{
     width: 100%;
     height: 100%;
-    margin: 5rem auto;
+    margin: 5rem auto 0 ;
     object-fit: cover;
 }
 .ib-timeline img{

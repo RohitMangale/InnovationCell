@@ -7,10 +7,7 @@ import Raising from '../Components/Raising/Raising'
 const ResearchDev = () => {
   return (
     <div>
-    <Navbar />
       <Research />
-      <Raising />
-      <Footer />
     </div>
   )
 }

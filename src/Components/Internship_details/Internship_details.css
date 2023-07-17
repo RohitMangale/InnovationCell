@@ -35,6 +35,10 @@
     border-radius: 4px;
     margin-bottom: 8px;
     gap: 4px;
+    
+}
+.int-details .view_details .int-header .status i{
+    color: #f95320;
 }
 .int-details .view_details .int-header .status span{
     font-size: 12px;
@@ -46,23 +50,30 @@
     display: flex;
     flex-direction: column;
     padding-bottom: 1rem;
+    gap: 8px;
 }
 .int-details .view_details .int-header .heading .post h2{
-    font-size: 16px;
+    font-size: 20px;
     line-height: 1.25;
     font-weight: 600;
     padding: 0;
     margin: 0;
 }
 .int-details .view_details .int-header .heading .company_name h3{
-    font-size: 14px;
+    font-size: 18px;
     line-height: 1.42857143;
     font-weight: 600;
 }
 .int-details .view_details .int-header .heading .location{
     display: flex;
     flex-direction: row;
-    gap: 1rem;
+    align-items: center;
+    /* justify-content: center; */
+    gap:5px;
+}
+.int-details .view_details .int-header .heading .location i{
+    font-size: 15px;
+    color: #484848;
 }
 .int-details .view_details .int-header .heading .location  p{
     padding: 0;
@@ -85,8 +96,13 @@
 .int-details .view_details .int-header .info .start_date .logo{
     display: flex;
     flex-direction: row;
-    gap: 1rem;
+    align-items: center;
+    gap: 5px;
     padding-bottom: 0.4rem;
+}
+.int-details .view_details .int-header .info .start_date .logo i{
+    font-size: 15px;
+    color: #484848;
 }
 .int-details .view_details .int-header .info .start_date .logo p{
     padding: 0;
@@ -100,13 +116,16 @@
 
 .int-details .view_details .about_company{
     text-align: left;
+    margin-bottom: 2rem;
 } 
 .int-details .view_details .about_company .about_head h2{
-    font-size: 16px;
+    font-size: 20px;
     line-height: 1.25;
     font-weight: 600;
+    
     padding: 0;
     margin: 0;
+    margin-bottom: 5px;
 }
 .int-details .view_details .about_company .about_head a{
     text-decoration: none;
@@ -125,5 +144,9 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 22px;
-    margin-bottom: 1rem;
+    margin-bottom: 8px;
+}
+.btn_center{
+    display: flex;
+    justify-content: center;
 }

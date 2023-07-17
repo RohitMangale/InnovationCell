@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
 import './Faqk.css'
-import {APie} from './faqkapi'
+import {MAPie} from './Mentor_data'
 import DevFaqks from './DevFaqk'
 
 const Faqk = () => {
 
-    const[data,setData] = useState(APie);
+    const[data,setData] = useState(MAPie);
 
   return (
     <div>

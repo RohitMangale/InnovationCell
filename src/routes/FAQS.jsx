@@ -9,12 +9,9 @@ import Chatbot from '../Components/ChatBot/ChatBot'
 const FAQS = () => {
   return (
     <div>
-      <Navbar />
       <Img />
       <Chatbot />
       <Faq />
-      <Footer />
-
     </div>
   )
 }

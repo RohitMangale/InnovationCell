@@ -1,7 +1,7 @@
 .f-box{
     max-width: 1080px;
     width: 100%;
-    margin: 0 auto;
+    margin: 100px  auto;
     -webkit-box-shadow: 0 0 10px 5px var(--bg-grey);
     -moz-box-shadow: 0 0 10px 5px var(--bg-grey);
     box-shadow: 0 0 10px 5px var(--bg-grey);
@@ -33,6 +33,10 @@
     font-size: var(--small);
     padding: .2rem .5rem .2rem .5rem;
     font-weight: 500;
+}
+
+.f-onerow .input2{
+    width: 100%;
 }
 
 input::-webkit-outer-spin-button,
@@ -156,9 +160,9 @@ input[type=file]::file-selector-button {
     font-family: 'Comfortaa', cursive;
   }
   
-  input[type=file]::file-selector-button:hover {
+  /* input[type=file]::file-selector-button:hover {
     background: var(--text-grey);
-  }
+  } */
 
   @media(max-width:800px){
     .f-onerow{

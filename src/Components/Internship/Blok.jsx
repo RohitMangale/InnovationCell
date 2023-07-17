@@ -3,7 +3,7 @@ import './Block.css'
 import {Link} from 'react-router-dom'
 
 import Button from './Button'
-const Blok = () => {
+const Blok = (props) => {
   return (
     <div className="block">
         <div className="status">
@@ -11,8 +11,8 @@ const Blok = () => {
             <span>Activily Hiring</span>
         </div>
         <div className="heading">
-            <div className="post"><h1>Store Fashion Consultant</h1></div>
-            <div className="company_name"><h2>Reliance Brands Limited</h2></div>
+            <div className="post"><h1>{props.post}</h1></div>
+            <div className="company_name"><h2>{props.company}</h2></div>
             <div className="location">
                 <i class="fa-solid fa-location-dot"></i>  
                 <p>Mumbai</p>         
@@ -26,7 +26,7 @@ const Blok = () => {
                     <p>Start Date</p>
                     </div>
                     <div className="sub-info">
-                      <p>Immediately</p>
+                      <p>{props.date}</p>
                     </div>
 
                 </div>
@@ -36,7 +36,7 @@ const Blok = () => {
                     <p>Duration</p>
                     </div>
                     <div className="sub-info">
-                      <p>2 Month</p>
+                      <p>{props.duration} Month</p>
                     </div>
 
                 </div>
@@ -46,7 +46,7 @@ const Blok = () => {
                     <p>Stipend</p>
                     </div>
                     <div className="sub-info">
-                      <p>₹ 15,000/Month</p>
+                      <p>₹ {props.stipend}/Month</p>
                     </div>
 
                 </div>
@@ -55,11 +55,13 @@ const Blok = () => {
 
             <div className="btns">
               
-              <a href='./Internship_details.jsx' className='fade-btn'>
-              <Link className='fade-btn' to='/interDetails'>Get Started</Link>
-              </a>
+              
+              <Link className='fade-btn' to={(`${props.id}`)}>Get Started</Link>
+              
 
-              <Button/>
+              <Link className="button" to={(`/internship_registration/${props.id}`)}>
+                  <div>Apply Now</div>
+              </Link>
 
             </div>
             

@@ -1,4 +1,6 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import Aos from 'aos'
+import "aos/dist/aos.css"
 import './Learning.css'
 
 import V1 from '../../assets/gif/v1.gif'
@@ -7,6 +9,15 @@ import V3 from '../../assets/gif/v3.gif'
 import V2 from '../../assets/gif/v2.gif'
 
 const Learning = () => {
+
+    useEffect(() => {
+        Aos.init({
+            duration:600,
+            easing:"ease",
+            once:true,
+        });
+    });
+
     return (
         <div className="learn">
         <div className="learning">
@@ -15,7 +26,7 @@ const Learning = () => {
 
             <div className="l-row">
 
-                <div className="l-box">
+                <div className="l-box"  data-aos="fade-up" data-aos-delay="100" >
                     <div className="l-top">
                         <img src={V1} alt="Growth" />
                     </div>
@@ -25,7 +36,7 @@ const Learning = () => {
                     </div>
                 </div>
 
-                <div className="l-box">
+                <div className="l-box"  data-aos="fade-up" data-aos-delay="250" >
                     <div className="l-top">
                     <img src={V2} alt="Experts" />
 
@@ -36,7 +47,7 @@ const Learning = () => {
                     </div>
                 </div>
 
-                <div className="l-box">
+                <div className="l-box"  data-aos="fade-up" data-aos-delay="500">
                     <div className="l-top">
                     <img src={V3} alt="Real World" />
 
@@ -47,7 +58,7 @@ const Learning = () => {
                     </div>
                 </div>
 
-                <div className="l-box">
+                <div className="l-box"  data-aos="fade-up" data-aos-delay="750">
                     <div className="l-top">
                     <img src={V4} alt="Structured guidance" />
                     </div>

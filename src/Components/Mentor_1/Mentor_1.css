@@ -1,8 +1,4 @@
-
-
-
-
-.mentor{
+.mentor {
     width: 100%;
     background-color: #f3f3f3;
     display: flex;
@@ -13,23 +9,23 @@
 
 }
 
-.mentor .men-heading{
-    width:1280px;
+.mentor .men-heading {
+    width: max-content;
     font-size: 48px;
     color: #1a1a1a;
     font-weight: 700;
     line-height: 1.1;
-    margin-bottom: 15px;
-    margin-top: 0;
-    padding: 0 ;
+
+    margin: 0 auto 15px;
+    padding: 0;
     text-align: center;
 
 }
 
 
 
-.mentor .men-row{
-    max-width: 1280px;
+.mentor .men-row {
+    max-width: 1360px;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -45,11 +41,11 @@
 
 
 
-.mentor .men-row .men-box{
-    width: 360px;
-    height: 360px;
+.mentor .men-row .men-box {
+    max-width: 300px;
+    height: 380px;
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     /* border-bottom: 4px solid #d72323; 
     border-left: 4px solid #d72323; 
     border-right: 4px solid #d72323;  */
@@ -60,7 +56,7 @@
 
 
 
-.mentor .men-row .men-box .men-inner{
+.mentor .men-row .men-box .men-inner {
     z-index: 20;
     background-color: transparent;
     width: 100%;
@@ -68,13 +64,13 @@
     display: flex;
     /* align-items: center;
     justify-content: center; */
-    padding:0rem 0.5rem;
-    flex-direction:column;
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+    padding: 0rem 0.5rem;
+    flex-direction: column;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
 
 }
 
-.mentor .men-row .men-box .men-icon{
+.mentor .men-row .men-box .men-icon {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -83,17 +79,19 @@
     height: 180px;
     object-fit: contain;
 }
-.mentor .men-row .men-box .men-icon .men-iconn{
+
+.mentor .men-row .men-box .men-icon .men-iconn {
     /* width: 100%; */
     height: 150px;
-    
+
 }
 
-.mentor .men-row .men-box .men-text{
+.mentor .men-row .men-box .men-text {
     padding: 0 1rem;
     margin: 0;
 }
-.mentor .men-row .men-box .men-text h2{
+
+.mentor .men-row .men-box .men-text h2 {
     font-size: 24px;
     color: #1a1a1a;
     font-weight: 700;
@@ -101,7 +99,8 @@
 
     margin-bottom: 10px;
 }
-.mentor .men-row .men-box .men-text p{
+
+.mentor .men-row .men-box .men-text p {
     margin-bottom: 20px;
     font-size: 18px;
     line-height: 1.2;
@@ -111,3 +110,49 @@
 }
 
 
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1360px) {
+
+
+    .mentor .men-row {
+        padding: 0 20%;
+        /* gap: 2rem; */
+    }
+
+
+}
+
+
+
+
+
+@media (max-width:1060px) {
+
+
+    .mentor .men-row {
+        padding: 0 10%;
+        /* gap: 2rem; */
+    }
+
+
+}
+
+@media (max-width:800px) {
+
+
+    .mentor .men-row {
+        padding: 0 0;
+        /* gap: 2rem; */
+    }
+
+
+}

@@ -7,10 +7,7 @@ import Footer from '../Components/Footer/Footer'
 const ProductCart = () => {
   return (
     <div>
-    <Navbar />
-    <Cart />
-    <Footer />
-      
+    <Cart />    
     </div>
   )
 }

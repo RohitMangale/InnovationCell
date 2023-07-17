@@ -1,6 +1,8 @@
 .block{
     border: 1px solid #EEE;
     border-radius: 6px;
+    max-width: 900px;
+    width: 100%;
     padding: 23px;
     background: #fff;
     margin-bottom: 2rem;
@@ -98,3 +100,24 @@
     color: #000;
     font-size: 14px;
 }
+
+
+
+@media (max-width:750px) {
+    .block .info{
+        flex-wrap: wrap;
+    }
+    .block .info .start_date .logo p{
+        display: none;
+    }
+    .block .info .start_date{
+        flex-direction: row;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+
+
+

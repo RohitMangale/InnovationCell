@@ -11,6 +11,9 @@
     padding: 5rem 3rem;
 }
 
+.margin-top{
+    margin-top: 4rem;
+}
 
 .we h1{
     width: 100%;
@@ -21,6 +24,7 @@
 
 .we p{
     width: 100%;
+
     text-align: justify;
     font-size: var(--para);
     color: var(--text-grey);

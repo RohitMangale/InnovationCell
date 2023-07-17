@@ -4,9 +4,8 @@
     display: flex;
     flex-direction: column;
     margin:0 auto;
-    height: 100vh;
+    height: 100%;
     background-color: #fff;
-
 }
 
 .Partners .p-sponsers {
@@ -16,13 +15,13 @@
     padding: 5rem 0rem;
     justify-content: center;    
     flex-direction: column;
-    gap: 3rem;
 
 }
 .Partners .p-sponsers  h1{
-    font-size: 48px;  
-    color: var(--black);
+    font-size: var(--heading);  
+    color: var(--bg-black);
     font-weight: 600;
+    margin-bottom: 30px;
 
 }
 .Partners .p-sponsers  h1 span{
@@ -45,58 +44,71 @@
     flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
-    gap: 1.2rem;
+    gap: 40px;
     justify-content: center;    
 
     /* gap: 2rem; */
 }
- .p-row a{
-    width: 180px;
-    height:100px;
-    padding: 1rem;
+
+.Partners .p-sponsers .p1-row{
+    max-width: 1280px;
+    width: 100%;
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
     align-items: center;
-    justify-content: center;
-    box-shadow: 0 0 15px rgba(87, 87, 87, 0.384) ;
-    /* background-position: center;
-    background: url(../../assets/Logos/logo10.png);
-    background-size: contain;
-    background-repeat: no-repeat; */
-    cursor: pointer;
+    gap: 50px;
+    justify-content: center;    
+
+    /* gap: 2rem; */
 }
- .p-row a img{
-    width: 80%;
-    height: 80%;
+
+.p-box img{
+    width: 100%;
+    height: 150px;
     object-fit: contain;
 }
-/* 
-.Partners .p-row .log1{
-    background: url(../../assets/Logos/logo10.png);
-    
+.p-box1 img{
+    width: 200px !important;
+    object-fit: contain;
 }
-.Partners .p-row .log2{
-    background: url(../../assets/Logos/logo11.png);
-    
-}
-.Partners .p-row .log3{
-    background: url(../../assets/Logos/logo15.png);
-    
-}
-.Partners .p-row .log4{
-    background: url(../../assets/Logos/logo16.png);
-    
-}
-.Partners .p-row .log5{
-    background: url(../../assets/Logos/logo2.png);
-    
-}
-.Partners .p-row .log6{
-    background: url(../../assets/Logos/logo3.png);
-    
-} */
 
 
 
+.pt-imgs{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto 5rem;
+    object-fit: cover;
+    object-position: center;
+}
+.pt-imgs> .pt-seen {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+.pt-imgs> .pt-unseen {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: none;
+}
+
+
+@media (max-width:1000px) {
+    .pt-imgs> .pt-seen {
+        display: none;
+
+    }
+    .pt-imgs> .pt-unseen {
+
+        display: block;
+    }
+    
+    
+}
 
 
 

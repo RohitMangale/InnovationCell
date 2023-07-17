@@ -16,6 +16,19 @@
   opacity: 1;
   transition: opacity 0.4s ease-in-out;
 }
+
+.slide3 .sliderVideo {
+width: 100%;
+z-index: -1;
+
+}
+.slide3 .sliderVideo .videoSlider {
+  width: 100%;
+  /* object-fit: fill; */
+
+}
+
+
 .layover-y{
   position: absolute;
   background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 15.67%), rgba(0,0,0,0);
@@ -96,7 +109,7 @@
 
   margin-bottom: 3rem;
 }
-.slide .content a {
+.blue-btn{
   /* padding-left: 2em;
   padding-right: 2em; */
   font-family: 'Poppins',  sans-serif;
@@ -104,7 +117,7 @@
   letter-spacing: 2px;
   text-transform: uppercase;
   font-weight: 600;
-  background-color: #2980B9;
+  background: var(--satan);
   font-size: 15.996px;
     line-height: 20px;
     padding:18px 30px ;
@@ -161,14 +174,14 @@
 } */
 
 .slide1 {
-  background: url('../../assets/start-bg2.jpeg') no-repeat center center/cover;
+  background: url('../../assets/Home/drone_land1.png') no-repeat center center/cover;
 
 }
 
 .slide2 {
-  background: url('../../assets/start-bg3.jpeg') no-repeat center center/cover;
+  background: url('../../assets/Home/drone_land2.jpg') no-repeat center center/cover;
 }
-
+/* 
 .slide3 {
-  background: url('../../assets/start-bg1.jpeg') no-repeat center center/cover;
-}
+  background: url('../../assets/Home/drone_land3.png') no-repeat center center/cover;
+} */

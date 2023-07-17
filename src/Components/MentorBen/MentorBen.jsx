@@ -2,6 +2,9 @@ import React from 'react'
 import './MentorBen.css'
 
 import Ill1 from '../../assets/ill/mentor1.jpg'
+import menproc from '../../assets/mentorProcedure.png'
+import menprocD from '../../assets/men-down.png'
+
 import Ill2 from '../../assets/ill/mentor2.jpg'
 import Ill5 from '../../assets/ill/ill-3.png'
 import Ill6 from '../../assets/ill/ill-4.png'
@@ -76,8 +79,9 @@ const MentorBen = () => {
 
 </div>
 
-<div className="ib-timeline">
-<img src="https://as2.ftcdn.net/v2/jpg/01/89/22/41/1000_F_189224188_9A8nJeIflSRSIgCp25oQRvqZH9OJ4lC3.jpg" alt="" />
+<div className="ib-timeline " style={{margin:'5rem auto 0'}}>
+<img className='dis' src={menproc} alt="" />
+<img className="appe" src={menprocD} alt="" />
 </div>
   
 </div>

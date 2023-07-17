@@ -42,9 +42,9 @@
     max-width: 1280px;
     width: 100%;
 
-    font-size: 48px;
+    font-size: var(--heading);
     /* padding: 0  0 0 2.5rem; */
-    color: #1a1a1a;
+    color: var(--bg-black);
     font-weight: 700;
     line-height: 1.1;
     margin: 0 auto 10px auto;
@@ -69,6 +69,11 @@
 
 }
 
+.game .g-right .g-box .gcon>img{
+    width: 30px;
+    height: 30px;
+}
+
 .game .g-right .g-box .gcon .g-jugad{
 width: 100%;
 height: 4.5rem;
@@ -91,7 +96,7 @@ background-color: #f3f3f3;
 }
 .game .g-right .g-box .g-text p{
     margin-bottom: 20px;
-    font-size: 18px;
+    font-size: var(--para);
     line-height: 1.2;
     font-weight: 400;
     color: #292929;

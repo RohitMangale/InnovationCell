@@ -3,9 +3,12 @@
     padding: 2rem 5rem;
     background: #151515;
     display: flex;
+
     flex-direction: column;
 }
 .Footer .sub-links{
+    max-width: 1180px;
+    margin: 0 auto;
     width: 100%;
     display: flex;
     flex-direction:row;
@@ -13,15 +16,15 @@
     justify-content: space-between;
     /* align-items: center; */
     gap:1rem;
-    padding: 0 0 1rem 0;
+    padding: 0 0 2rem 0;
 }
 .Footer .sub-links .con{
     width:230px;
     display: flex;
     flex-direction: column;
-    align-items: left;
+    align-items: flex-start;
     text-align: left;
-    gap: 1rem;
+    gap: 10px;
 }
 .Footer .sub-links .con h1{
     color: #fff;
@@ -58,15 +61,21 @@ hr{
 
 .Footer .links .logo,
 .Footer .links .social-icons{
-    width:25%;
+    width:30%;
     padding: 0;
     margin: 0;
 }
-.Footer .links .logo h1{
-    color: #fff;
-    padding: 0;
-    margin: 0;
-    text-align: center;
+.Footer .links .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.Footer .links .logo>img{
+    /* filter: grayscale(100%); */
+    width: 80px;
+    height: 80px;
+    
 }
 .Footer .links .main-links{
     width:50%;
@@ -98,15 +107,21 @@ hr{
 
 .Footer .reserved{
     display: flex;
+    max-width: 1280px;
+    width: 100%;
+    margin: 10px auto;
     align-items: center;
-    margin: 1rem 0 0.5rem 0;
+
     justify-content: center;
     text-align: center;
-    color: #fff;
+    color: #797979;
 }
 
 .Footer .links{
     /* border: none; */
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
     padding: 10px 0;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     border-top: 1px solid rgba(255, 255, 255, 0.1);

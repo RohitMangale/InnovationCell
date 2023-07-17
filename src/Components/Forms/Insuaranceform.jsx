@@ -7,15 +7,19 @@ const Student = () => {
       <div className="f-box">
         <h1>Get Insuarance</h1>
         <div className="f-onerow">
-          <input type="text" placeholder="Duration of Insuarance (in Months)" required />
+          <input
+            type="text"
+            placeholder="Duration of Insuarance (in Months)"
+            required
+          />
           <input type="text" placeholder="Drone Registration ID" required />
         </div>
 
         <div className="f-margintop">
-        <label htmlFor="gender">Recent Drone Image</label>
-        <div className="f-radio">
-            <input type="file" />           
-        </div>
+          <label htmlFor="gender">Recent Drone Image</label>
+          <div className="f-radio">
+            <input type="file" />
+          </div>
         </div>
 
         <div className="f-onerow">
@@ -23,19 +27,21 @@ const Student = () => {
         </div>
 
         <div className="f-margintop">
-        <label htmlFor="startdate">Purchase Date</label>
-        <div className="f-onerow">
-          <input type="date" placeholder="Start Date" required />
+          <label htmlFor="startdate">Purchase Date</label>
+          <div className="f-onerow">
+            <input type="date" placeholder="Start Date" required />
+          </div>
         </div>
-        </div>
-
 
         <div className="f-margintop">
-        <label htmlFor="gender">Drone Purchase Invoice</label>
-        <div className="f-radio">
-            <input type="file" />           
+          <label htmlFor="gender">Drone Purchase Invoice</label>
+          <div className="f-radio">
+            <input type="file" />
+          </div>
         </div>
-        </div>
+        <button className="btn">
+          Join Us
+        </button>
         {/* <div className="f-margintop1">
         <div className="f-tworow">
           <label htmlFor="course">Last Passed Course</label>

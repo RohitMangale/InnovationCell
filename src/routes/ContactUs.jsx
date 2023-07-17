@@ -8,12 +8,8 @@ import Contact from '../Components/Contact/Contact'
 const ContactUs = () => {
   return (
     <div>
-
-        <Navbar />
         <Contact/>
-
-        <Footer />
-      
+     
     </div>
   )
 }

@@ -72,7 +72,7 @@
     margin: 0;
 }
 .ibenefits .ib-row  .ib-inner .ib-text h2{
-    font-size: 24px;
+    font-size: var(--para);
     color: #1a1a1a;
     font-weight: 700;
     text-align: center;
@@ -80,7 +80,7 @@
 }
 .ibenefits .ib-row  .ib-inner .ib-text p{
     margin-bottom: 20px;
-    font-size: 18px;
+    font-size: var(--small);
     line-height: 1.2;
     text-align: center;
     font-weight: 400;
@@ -95,5 +95,23 @@
 }
 .ib-timeline img{
     width: 100%;
+    object-fit: contain;
     height: 100%;
 }
+
+.appe{
+    display: none;
+}
+
+
+@media (max-width:1000px) {
+    
+.dis{
+    display: none;
+}
+.appe{
+    display: block;
+
+}
+}
+

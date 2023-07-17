@@ -5,6 +5,12 @@ import {SlNote} from 'react-icons/sl';
 import {BsFillPinAngleFill} from 'react-icons/bs';
 import {AiOutlineFileProtect} from 'react-icons/ai';
 
+import {RiDashboardLine} from 'react-icons/ri';
+import {BsGlobeAmericas} from 'react-icons/bs';
+
+// import {IoNewspaperSharp} from 'react-icons/io';
+import {BsPencilSquare} from 'react-icons/bs';
+
 const Talent = () => {
   return (
     <div className="talent">
@@ -12,13 +18,13 @@ const Talent = () => {
 
 
       <div className="t-right">
-        <h2 className="t-heading">Up your work game, it’s free.</h2>
+      <h2 className="t-heading">Universites Benifits</h2>
 
         <div className="t-box">
           <div className="t-text">
-            <h4> <SlNote /> The best for every budget</h4>
+          <h4> <BsPencilSquare /> Launch New Courses</h4> 
             <p>
-            Find high-quality services at every price point. No hourly rates, just project-based pricing.
+            Universities can start Different types of courses 
             </p>
           </div>
         </div>
@@ -26,24 +32,25 @@ const Talent = () => {
         <div className="t-box">
 
           <div className="t-text">
-            <h4><BsFillPinAngleFill />Quality work done quickly</h4>
+          <h4> <BsGlobeAmericas />  Get Students all over the world</h4>
             <p>
-            Find the right freelancer to begin working on your project within minutes.
+            get the dashbord of the course you will start with all the practical functionalities.
             </p>
           </div>
         </div>
-
+        
         <div className="t-box">
 
           <div className="t-text">
-            <h4> <AiOutlineFileProtect /> Protected payments, every time</h4>
+          <h4> <RiDashboardLine />  Get well Maintained course dashbord</h4>
             <p>
-            Always know what you'll pay upfront. Your payment isn't released until you approve the work.
+            get the dashbord of the course you will start with all the practical functionalities.
             </p>
           </div>
         </div>
 
-        <div className="t-box">
+
+        {/* <div className="t-box">
 
           <div className="t-text">
             <h4>  <AiOutlineFileProtect /> 24/7 support</h4>
@@ -51,12 +58,12 @@ const Talent = () => {
             Questions? Our round-the-clock support team is available to help anytime, anywhere.
             </p>
           </div>
-        </div>
+        </div> */}
 
       </div>
 
       <div className="t-left">
-        <img src="https://fiverr-res.cloudinary.com/q_auto,f_auto,w_700,dpr_1.0/v1/attachments/generic_asset/asset/089e3bb9352f90802ad07ad9f6a4a450-1599517407052/selling-proposition-still-1400-x1.png" className="disappear"></img>
+      <img src="https://i.redd.it/a3e5x519vco01.jpg" className="disappear"></img>
         <img src="https://images.unsplash.com/photo-1588495077262-e41593eb23c8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fGtlbnRpbmd8ZW58MHx8MHx8&w=1000&q=80" className="appear"></img>
       </div>
 
